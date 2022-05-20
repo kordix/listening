@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Radioactive</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <audio controls id="auioelem" style="width:500px">
+      <source src="thekidsoffspring.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br><br>
+
+
+    <button id="ffbutton" @click="next">Run</button>
+
+    <p id="napisy"></p>
+
+    <input type="text" v-model="mytext" style="width:500px">
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button @click="podejrzyjnapisym">Podejrzyj napisy</button>
+    Fragment: <input style="width:30px" type="number" v-model.number="fragmentindex" :max="fragmenty.length - 1">
+
+    <button @click="next('manual')">Next</button>
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+
+  <script>
+
+    let app = new Vue({
+      el: '#app',
+      data: {
+        mytext: '',
+        fragmenty: [
+          
+
+
+        ],
+        fragmentindex: 0,
+        napisy: false,
+        podejrzyjnapisy: false
+
+      },
+      methods: {
+        next(mode) {
+          this.podejrzyjnapisy = false;
+          if (mode === 'manual') {
+            this.fragmentindex = this.fragmentindex + 1;
+            this.napisy = false;
+          }
+
+          let self = this;
+          let audi = document.getElementById('auioelem');
+
+          audi.currentTime = self.fragmenty[self.fragmentindex].start;
+          audi.play();
+
+          setTimeout(function () {
+            audi.pause();
+          }, self.fragmenty[self.fragmentindex].duration * 1000);
+
+
+
+          if (self.napisy == false) {
+            console.log(self.fragmentindex);
+
+            document.getElementById('napisy').innerHTML = '';
+
+          }
+
+          if (self.napisy == true) {
+            console.log(self.fragmentindex);
+            document.getElementById('napisy').innerHTML = self.fragmenty[self.fragmentindex].tekst;
+          }
+
+          if (self.napisy) {
+            self.fragmentindex = self.fragmentindex + 1;
+          }
+
+          self.napisy = !self.napisy;
+
+          if (!napisy) {
+            // this.mytext = '';
+          }
+
+
+
+        },
+
+        podejrzyjnapisym() {
+          document.getElementById('napisy').innerHTML = this.fragmenty[this.fragmentindex].tekst;
+        }
+      }
+
+    })
+  </script>
+
+
+  <script>
+
+    let fragmentindex = 1;
+
+    let napisy = false;
+
+
+
+    document.getElementById("ffbutton").addEventListener("click", function () {
+
+
+      console.log(fragmentindex);
+
+
+
+
+
+
+
+
+
+
+    })
+
+  </script>
+</body>
+
+</html>

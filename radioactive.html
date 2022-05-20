@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Radioactive</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <audio controls id="auioelem" style="width:500px">
+      <source src="radioactive.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br><br>
+
+
+    <button id="ffbutton" @click="next">Run</button>
+
+    <p id="napisy"></p>
+
+    <input type="text" v-model="mytext" style="width:500px">
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button @click="podejrzyjnapisym">Podejrzyj napisy</button>
+    Fragment: <input style="width:30px" type="number" v-model.number="fragmentindex" :max="fragmenty.length - 1">
+
+    <button @click="next('manual')">Next</button>
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+
+  <script>
+
+    let app = new Vue({
+      el: '#app',
+      data: {
+        mytext: '',
+        fragmenty: [
+          { start: 29.16, tekst: 'I\'m waking up to ash and dust', duration: 3.49 }
+          , { start: 32.65, tekst: 'I wipe my brow and I sweat my rust', duration: 3.51 }
+          , { start: 36.16, tekst: 'I\'m breathing in the chemicals', duration: 7.01 }
+          , { start: 43.17, tekst: 'I\'m breaking in, shaping up, then checking out on the prison bus', duration: 6.99 }
+          , { start: 50.16, tekst: 'This is it, the apocalypse', duration: 5.25 }
+          , { start: 55.41, tekst: 'I\'m waking up, I feel it in my bones', duration: 4.76 }
+          , { start: 60.17, tekst: 'Enough to make my systems blow', duration: 5 }
+          , { start: 85.41, tekst: 'I raise my flags, don my clothes', duration: 3.75 }
+          , { start: 89.16, tekst: 'It\'s a revolution, I suppose', duration: 3.25 }
+          , { start: 92.41, tekst: 'We\'ll paint it red to fit right in', duration: 7 }
+          , { start: 99.41, tekst: 'I\'m breaking in, shaping up, then checking out on the prison bus', duration: 7 }
+          , { start: 106.41, tekst: 'This is it, the apocalypse', duration: 5.5 }
+          , { start: 111.91, tekst: 'I\'m waking up, I feel it in my bones', duration: 4.24 }
+          , { start: 116.15, tekst: 'Enough to make my systems blow', duration: 5 }
+          , { start: 141.16, tekst: 'All systems go, the sun hasn\'t died', duration: 5 }
+
+
+        ],
+        fragmentindex: 0,
+        napisy: false,
+        podejrzyjnapisy: false
+
+      },
+      methods: {
+        next(mode) {
+          this.podejrzyjnapisy = false;
+          if (mode === 'manual') {
+            this.fragmentindex = this.fragmentindex + 1;
+            this.napisy = false;
+          }
+
+          let self = this;
+          let audi = document.getElementById('auioelem');
+
+          audi.currentTime = self.fragmenty[self.fragmentindex].start;
+          audi.play();
+
+          setTimeout(function () {
+            audi.pause();
+          }, self.fragmenty[self.fragmentindex].duration * 1000);
+
+
+
+          if (self.napisy == false) {
+            console.log(self.fragmentindex);
+
+            document.getElementById('napisy').innerHTML = '';
+
+          }
+
+          if (self.napisy == true) {
+            console.log(self.fragmentindex);
+            document.getElementById('napisy').innerHTML = self.fragmenty[self.fragmentindex].tekst;
+          }
+
+          if (self.napisy) {
+            self.fragmentindex = self.fragmentindex + 1;
+          }
+
+          self.napisy = !self.napisy;
+
+          if (!napisy) {
+            // this.mytext = '';
+          }
+
+
+
+        },
+
+        podejrzyjnapisym() {
+          document.getElementById('napisy').innerHTML = this.fragmenty[this.fragmentindex].tekst;
+        }
+      }
+
+    })
+  </script>
+
+
+  <script>
+
+    let fragmentindex = 1;
+
+    let napisy = false;
+
+
+
+    document.getElementById("ffbutton").addEventListener("click", function () {
+
+
+      console.log(fragmentindex);
+
+
+
+
+
+
+
+
+
+
+    })
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Kesha Tik Tok</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <audio controls id="auioelem" style="width:500px">
+      <source src="tiktok.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br><br>
+
+
+    <button id="ffbutton" @click="next">Run</button>
+
+    <p id="napisy"></p>
+
+    <input type="text" v-model="mytext" style="width:500px">
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button @click="podejrzyjnapisym">Podejrzyj napisy</button>
+    Fragment: <input style="width:30px" type="number" v-model.number="fragmentindex" :max="fragmenty.length - 1">
+
+    <button @click="next('manual')">Next</button>
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+
+  <script>
+
+    let app = new Vue({
+      el: '#app',
+      data: {
+        mytext: '',
+        fragmenty: [
+          { start: 0.32, tekst: 'Wake up in the morning feeling like P Diddy (Hey, what up girl?)', duration: 3.75 }
+          , { start: 4.07, tekst: 'Grab my glasses, I\'m out the door; I\'m gonna hit this city (Let\'s go)', duration: 3.5 }
+          , { start: 7.57, tekst: 'Before I leave, brush my teeth with a bottle of Jack', duration: 4 }
+          , { start: 11.57, tekst: '\'Cause when I leave for the night, I ain\'t coming back', duration: 3.75 }
+          , { start: 15.32, tekst: 'I\'m talking pedicure on our toes, toes', duration: 2.75 }
+          , { start: 18.07, tekst: 'Trying on all our clothes, clothes', duration: 2 }
+          , { start: 20.07, tekst: 'Boys blowing up our phones, phones', duration: 2 }
+          , { start: 22.07, tekst: 'Drop-topping, playing our favorite CD\'s', duration: 4 }
+          , { start: 26.07, tekst: 'Rollin\' up to the parties', duration: 2.25 }
+          , { start: 28.32, tekst: 'Trying to get a little bit tipsy', duration: 3.75 }
+          , { start: 32.07, tekst: 'Don\'t stop, make it pop', duration: 1.5 }
+          , { start: 32.5, tekst: 'DJ, blow my speakers up', duration: 3 }
+          , { start: 36.32, tekst: 'Tonight, I\'m-a fight', duration: 1.26 }
+          , { start: 37.58, tekst: 'Till we see the sunlight', duration: 2.24 }
+          , { start: 39.82, tekst: 'Tick-tock on the clock But the party don\'t stop, no', duration: 6.75 }
+          , { start: 62.81, tekst: 'Ain\'t got a care in world, but got plenty of beer', duration: 5.01 }
+          , { start: 66.82, tekst: 'Ain\'t got no money in my pocket, but I\'m already here', duration: 5.5 }
+          , { start: 71.32, tekst: 'And now the dudes are lining up \'cause they hear we got swagger', duration: 4.5 }
+          , { start: 75.82, tekst: 'But we kick \'em to the curb unless they look like Mick Jagger', duration: 3.99 }
+          , { start: 79.81, tekst: 'I\'m talking about everybody getting crunk, crunk', duration: 2.6 }
+          , { start: 82.07, tekst: 'Boys tried to touch my junk, junk', duration: 2.6 }
+          , { start: 83.8, tekst: 'Gonna smack him if he getting too drunk, drunk', duration: 3.6 }
+          , { start: 87.57, tekst: 'Now, now, we goin\' till they kick us out, out', duration: 2.51 }
+          , { start: 90.08, tekst: 'Or the police shut us down, down', duration: 1.98 }
+          , { start: 128.32, tekst: 'DJ, you build me up', duration: 2.24 }
+          , { start: 130.56, tekst: 'You break me down', duration: 2.26 }
+          , { start: 132.5, tekst: 'My heart it pounds Yeah, you got me', duration: 3.5 }
+          , { start: 136.08, tekst: 'With my hands up', duration: 2.25 }
+          , { start: 138.33, tekst: 'You got me now', duration: 1.99 }
+          , { start: 140.32, tekst: 'You got that sound', duration: 2.75 }
+          , { start: 159.3, tekst: 'Now, the party don\'t start till I walk in', duration: 4 }
+
+        ],
+        fragmentindex: 0,
+        napisy: false,
+        podejrzyjnapisy: false
+
+      },
+      methods: {
+        next(mode) {
+          this.podejrzyjnapisy = false;
+          if (mode === 'manual') {
+            this.fragmentindex = this.fragmentindex + 1;
+            this.napisy = false;
+          }
+
+          let self = this;
+          let audi = document.getElementById('auioelem');
+
+          audi.currentTime = self.fragmenty[self.fragmentindex].start;
+          audi.play();
+
+          setTimeout(function () {
+            audi.pause();
+          }, self.fragmenty[self.fragmentindex].duration * 1000);
+
+
+
+          if (self.napisy == false) {
+            console.log(self.fragmentindex);
+
+            document.getElementById('napisy').innerHTML = '';
+
+          }
+
+          if (self.napisy == true) {
+            console.log(self.fragmentindex);
+            document.getElementById('napisy').innerHTML = self.fragmenty[self.fragmentindex].tekst;
+          }
+
+          if (self.napisy) {
+            self.fragmentindex = self.fragmentindex + 1;
+          }
+
+          self.napisy = !self.napisy;
+
+          if (!napisy) {
+            // this.mytext = '';
+          }
+
+
+
+        },
+
+        podejrzyjnapisym() {
+          document.getElementById('napisy').innerHTML = this.fragmenty[this.fragmentindex].tekst;
+        }
+      }
+
+    })
+  </script>
+
+
+  <script>
+
+    let fragmentindex = 1;
+
+    let napisy = false;
+
+
+
+    document.getElementById("ffbutton").addEventListener("click", function () {
+
+
+      console.log(fragmentindex);
+
+
+
+
+
+
+
+
+
+
+    })
+
+  </script>
+</body>
+
+</html>

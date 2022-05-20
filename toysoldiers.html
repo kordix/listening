@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Eminem Toy Soldiers</title>
+</head>
+
+<body>
+
+  <div id="app">
+    <audio controls id="auioelem" style="width:500px">
+      <source src="toysoldiers.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br><br>
+
+
+    <button id="ffbutton" @click="next">Run</button>
+
+    <p id="napisy"></p>
+
+    <input type="text" v-model="mytext" style="width:500px">
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button @click="podejrzyjnapisym">Podejrzyj napisy</button>
+    Fragment: <input style="width:30px" type="number" v-model.number="fragmentindex" :max="fragmenty.length - 1">
+
+    <button @click="next('manual')">Next</button>
+
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+
+  <script>
+
+    let app = new Vue({
+      el: '#app',
+      data: {
+        mytext: '',
+        fragmenty: [
+          { start: 0.39, tekst: 'Step by step, heart to heart', duration: 3 }
+          , { start: 3.3, tekst: 'Left, right, left, we all fall down...', duration: 6.25 }
+          , { start: 20.6, tekst: 'Bit by bit, torn apart', duration: 3.2 }
+          , { start: 23.14, tekst: 'We never win, but the battle wages on', duration: 5.25 }
+          , { start: 28.39, tekst: 'For toy soldiers', duration: 4 }
+          , { start: 31.89, tekst: 'I\'m supposed to be the soldier who never blows his composure', duration: 4 }
+          , { start: 35, tekst: 'Even though I hold the weight of the whole world on my shoulders', duration: 3.5 }
+          , { start: 37.89, tekst: 'I ain\'t never supposed to show it', duration: 3 }
+          , { start: 39.14, tekst: 'My crew ain\'t supposed to know it', duration: 3 }
+          , { start: 40.89, tekst: 'Even if it means goin\' toe-to-toe with a Benzino', duration: 3.5 }
+          , { start: 43.64, tekst: 'It don\'t matter, I never drag \'em in battles that I can\'t handle', duration: 4 }
+          , { start: 46.64, tekst: '\'Less I absolutely have to, I\'m supposed to set an example', duration: 4 }
+          , { start: 49.64, tekst: 'I need to be the leader, my crew looks for me to guide \'em', duration: 4 }
+          , { start: 52.64, tekst: 'If some shit ever does pop off, I\'m supposed to be beside \'em', duration: 4 }
+          , { start: 55.39, tekst: 'That Ja shit, I tried to squash it, it was too late to stop it', duration: 4 }
+          , { start: 58.39, tekst: 'There\'s a certain line you just don\'t cross, and he crossed it', duration: 4 }
+          , { start: 61.39, tekst: 'I heard him say Hailie\'s name on a song and I just lost it', duration: 4 }
+          , { start: 64.14, tekst: 'It was crazy, the shit went way beyond some JAY-Z and Nas shit', duration: 5 }
+          , { start: 67.39, tekst: 'And even though the battle was won, I feel like we lost it', duration: 4 }
+          , { start: 70.14, tekst: 'I spent so much energy on it, honestly I\'m exhausted', duration: 4.5 }
+          , { start: 73.14, tekst: 'And I\'m so caught in it that I almost feel I\'m the one who caused it', duration: 4.5 }
+          , { start: 75.89, tekst: 'This ain\'t what I\'m in hip-hop for, that\'s not why I got in it', duration: 4.5 }
+          , { start: 79.14, tekst: 'That was never my object, for someone to get killed', duration: 4 }
+          , { start: 81.89, tekst: 'Why would I wanna destroy something I helped build?', duration: 5 }
+          , { start: 84.89, tekst: 'That wasn\'t my intentions, my intentions were good', duration: 4.5 }
+          , { start: 87.64, tekst: 'I went through my whole career without ever mentionin\' ****', duration: 4.5 }
+          , { start: 90.64, tekst: 'And that was just outta respect, for not runnin\' my mouth', duration: 4.5 }
+          , { start: 94.64, tekst: 'And talkin\' about somethin\' that I knew nothin\' about', duration: 4.5 }
+          , { start: 96.39, tekst: 'Plus Dre told me stay out, this just wasn\'t my beef', duration: 4.5 }
+          , { start: 99.39, tekst: 'So I did, I just fell back, watched and gritted my teeth', duration: 4.5 }
+          , { start: 102.39, tekst: 'While he\'s all over TV, down-talkin\' the man', duration: 4 }
+          , { start: 105.14, tekst: 'Who literally saved my life, like fuck it, I understand', duration: 4 }
+          , { start: 108.14, tekst: 'This is business, and this shit just isn\'t none of my business', duration: 4.5 }
+          , { start: 111.14, tekst: 'But still knowin\' the shit could pop off at any minute, \'cause—', duration: 5 }
+          , { start: 137.64, tekst: 'There used to be a time when you could just say a rhyme and', duration: 4 }
+          , { start: 140.39, tekst: 'Wouldn\'t have to worry about one of your people dyin\'', duration: 5 }
+          , { start: 143.39, tekst: 'But now it\'s elevated, \'cause once you put someone\'s kids in it', duration: 4 }
+          , { start: 146.39, tekst: 'The shit gets escalated—it ain\'t just words no more, is it?', duration: 5 }
+          , { start: 149.89, tekst: 'It\'s a different ballgame, you call names and you ain\'t just rappin\'', duration: 4 }
+          , { start: 152.39, tekst: 'We actually tried to stop the 50 and Ja beef from happenin\'', duration: 4 }
+          , { start: 155.14, tekst: 'Me and Dre had sat with him, kicked it and had a chat with him', duration: 4.5 }
+          , { start: 158.14, tekst: 'And asked him not to start it, he wasn\'t gonna go after him', duration: 4.5 }
+          , { start: 161.14, tekst: 'Until Ja started yappin\' in magazines how he stabbed him', duration: 4.5 }
+          , { start: 164.14, tekst: 'Fuck it, 50, smash him! Mash on him, let him have it', duration: 4.5 }
+          , { start: 167.14, tekst: 'Meanwhile my attention\'s pulled in another direction', duration: 4 }
+          , { start: 169.64, tekst: 'Some receptionist at The Source who answers phones at his desk', duration: 4.7 }
+          , { start: 172.89, tekst: 'Has an erection for me and thinks that I\'ll be his resurrection', duration: 4.5 }
+          , { start: 176.14, tekst: 'Tries to blow the dust off his mic and make a new record', duration: 4 }
+          , { start: 178.64, tekst: 'But now he\'s fucked the game up', duration: 2.5 }
+          , { start: 180.39, tekst: '\'Cause one of the ways I came up', duration: 2.5 }
+          , { start: 181.89, tekst: 'Was through that publication, the same one that made me famous', duration: 4 }
+
+
+        ],
+        fragmentindex: 0,
+        napisy: false,
+        podejrzyjnapisy: false
+
+      },
+      methods: {
+        next(mode) {
+          this.podejrzyjnapisy = false;
+          if (mode === 'manual') {
+            this.fragmentindex = this.fragmentindex + 1;
+            this.napisy = false;
+          }
+
+          let self = this;
+          let audi = document.getElementById('auioelem');
+
+          audi.currentTime = self.fragmenty[self.fragmentindex].start;
+          audi.play();
+
+          setTimeout(function () {
+            audi.pause();
+          }, self.fragmenty[self.fragmentindex].duration * 1000);
+
+
+
+          if (self.napisy == false) {
+            console.log(self.fragmentindex);
+
+            document.getElementById('napisy').innerHTML = '';
+
+          }
+
+          if (self.napisy == true) {
+            console.log(self.fragmentindex);
+            document.getElementById('napisy').innerHTML = self.fragmenty[self.fragmentindex].tekst;
+          }
+
+          if (self.napisy) {
+            self.fragmentindex = self.fragmentindex + 1;
+          }
+
+          self.napisy = !self.napisy;
+
+          if (!napisy) {
+            // this.mytext = '';
+          }
+
+
+
+        },
+
+        podejrzyjnapisym() {
+          document.getElementById('napisy').innerHTML = this.fragmenty[this.fragmentindex].tekst;
+        }
+      }
+
+    })
+  </script>
+
+
+  <script>
+
+    let fragmentindex = 1;
+
+    let napisy = false;
+
+
+
+    document.getElementById("ffbutton").addEventListener("click", function () {
+
+
+      console.log(fragmentindex);
+
+
+
+
+
+
+
+
+
+
+    })
+
+  </script>
+</body>
+
+</html>
