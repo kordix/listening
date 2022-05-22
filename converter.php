@@ -1,70 +1,80 @@
 <?php
 
 $lrc = '
-[00:04.35]When the days are cold
-[00:05.48]And the cards all fold
-[00:07.85]And the saints we see
-[00:10.23]Are all made of gold
-[00:13.48]When your dreams all fail
-[00:16.23]And the ones we hail
-[00:18.49]Are the worst of all
-[00:20.98]And the blood\'s run stale
-[00:25.06]I wanna hide the truth
-[00:27.59]I wanna shelter you
-[00:30.31]But with the beast inside
-[00:32.80]There\'s nowhere we can hide
-[00:35.80]No matter what we breed
-[00:38.29]We still are made of greed
-[00:41.05]This is my kingdom come
-[00:43.58]This is my kingdom come
-[00:46.55]When you feel my heat
-[00:49.06]Look into my eyes
-[00:51.80]It\'s where my demons hide
-[00:54.33]It\'s where my demons hide
-[00:57.31]Don\'t get too close
-[01:00.05]It\'s dark inside
-[01:02.56]It\'s where my demons hide
-[01:05.07]It\'s where my demons hide
-[01:06.93]At the curtain\'s call
-[01:09.19]It\'s the last of all
-[01:11.94]When the lights fade out
-[01:14.43]All the sinners crawl
-[01:17.18]So they dug your grave
-[01:19.93]And the masquerade
-[01:22.44]Will come calling out
-[01:25.18]At the mess you made
-[01:29.27]Don\'t wanna let you down
-[01:31.52]But I am hell bound
-[01:34.51]Though this is all for you
-[01:37.04]Don\'t wanna hide the truth
-[01:39.77]No matter what we breed
-[01:42.27]We still are made of greed
-[01:45.03]This is my kingdom come
-[01:47.77]This is my kingdom come
-[01:50.52]When you feel my heat
-[01:53.02]Look into my eyes
-[01:55.78]It\'s where my demons hide
-[01:58.28]It\'s where my demons hide
-[02:01.29]Don\'t get too close
-[02:03.79]It\'s dark inside
-[02:06.28]It\'s where my demons hide
-[02:09.02]It\'s where my demons hide
-[02:12.02]They say it\'s what you make
-[02:14.52]I say it\'s up to fate
-[02:17.27]It\'s woven in my soul
-[02:19.77]I need to let you go
-[02:22.54]Your eyes, they shine so bright
-[02:25.02]I wanna save that light
-[02:27.77]I can\'t escape this now
-[02:30.53]Unless you show me how
-[02:33.52]When you feel my heat
-[02:35.77]Look into my eyes
-[02:38.27]It\'s where my demons hide
-[02:41.02]It\'s where my demons hide
-[02:44.03]Don\'t get too close
-[02:46.78]It\'s dark inside
-[02:49.04]It\'s where my demons hide
-[02:51.78]It\'s where my demons hide
+[00:00.61]From the top to the bottom
+[00:02.35]Bottom to top I stop
+[00:03.10]At the core I\'ve forgotten
+[00:04.35]In the middle of my thoughts
+[00:05.37]Taken far from my safety
+[00:06.61]The picture\'s there
+[00:07.61]The memory won\'t escape me
+[00:08.84]But why should I care?
+[00:10.09]From the top to the bottom
+[00:10.88]Bottom to top I stop
+[00:11.84]At the core I\'ve forgotten
+[00:13.11]In the middle of my thoughts
+[00:14.11]Taken far from my safety
+[00:15.34]The picture\'s there
+[00:16.37]The memory won\'t escape me
+[00:17.39]But why should I care?
+[00:18.86]There\'s a place so dark you can\'t see the end
+[00:20.85](Skies cock back) and shock that which can\'t defend
+[00:23.10]The rain then sends dripping acidic questions
+[00:25.36]Forcefully, the power of suggestion
+[00:27.09]Then with the eyes shut looking through the rust and rot, and dust
+[00:29.59]A small spot of light floods the floor
+[00:31.88]And pours over the rusted world of pretend
+[00:34.12]And the eyes ease open and it\'s dark again
+[00:36.36]From the top to the bottom
+[00:37.61]Bottom to top I stop
+[00:38.60]At the core I\'ve forgotten
+[00:39.86]In the middle of my thoughts
+[00:40.85]Taken far from my safety
+[00:42.09]The picture\'s there
+[00:43.09]The memory won\'t escape me
+[00:44.36]But why should I care?
+[00:45.62]In the memory you\'ll find me
+[00:50.61]Eyes burning up
+[00:54.61]The darkness holding me tightly
+[00:59.13]Until the sun rises up
+[01:07.36]Moving all around
+[01:08.36]Screaming of the ups and downs
+[01:09.61]Pollution manifested in perpetual sound
+[01:11.87]The wheels go \'round and the sunset creeps
+[01:14.10]Behind street lamps, chain-link, and concrete
+[01:16.35]A little piece of paper with a picture drawn
+[01:18.59]Floats on down the street \'til the wind is gone
+[01:20.60]And the memory now is like the picture was then
+[01:22.84]When the paper\'s crumpled up it can\'t be perfect again
+[01:25.12]From the top to the bottom
+[01:26.11]Bottom to top I stop
+[01:27.36]At the core I\'ve forgotten
+[01:28.61]In the middle of my thoughts
+[01:29.61]Taken far from my safety
+[01:30.60]The picture\'s there
+[01:31.61]The memory won\'t escape me
+[01:33.12]But why should I care?
+[01:34.35]From the top to the bottom
+[01:35.36]Bottom to top I stop
+[01:36.09]At the core I\'ve forgotten
+[01:37.13]In the middle of my thoughts
+[01:38.37]Taken far from my safety
+[01:39.76]The picture\'s there
+[01:40.76]The memory won\'t escape me
+[01:42.03]But why should I care?
+[01:43.28]In the memory you\'ll find me
+[01:48.28]Eyes burning up
+[01:52.27]The darkness holding me tightly
+[01:56.76]Until the sun rises up
+[02:05.29]Now you got me caught in the act
+[02:07.03]You bring the thought back
+[02:07.77]Telling you that I see it right through you
+[02:09.78]Now you got me caught in the act
+[02:11.27]You bring the thought back
+[02:12.26]Telling you that I see it right through you
+[02:14.02]Now you got me caught in the act
+[02:15.78]You bring the thought back
+[02:16.51]Telling you that I see it right through you
 ';
 
 
@@ -77,7 +87,7 @@ $poczatek = 0;
 // $myjson .= 'fragmenty:[';
 
 $numerlini = 0;
-while ($numerlini <  60){
+while ($numerlini <  90){
 
     $linia = substr($lrc, $poczatek, strpos($lrc, "\r\n", $poczatek + 1) - $poczatek);
 
