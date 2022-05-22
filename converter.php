@@ -1,80 +1,75 @@
 <?php
 
 $lrc = '
-[00:00.61]From the top to the bottom
-[00:02.35]Bottom to top I stop
-[00:03.10]At the core I\'ve forgotten
-[00:04.35]In the middle of my thoughts
-[00:05.37]Taken far from my safety
-[00:06.61]The picture\'s there
-[00:07.61]The memory won\'t escape me
-[00:08.84]But why should I care?
-[00:10.09]From the top to the bottom
-[00:10.88]Bottom to top I stop
-[00:11.84]At the core I\'ve forgotten
-[00:13.11]In the middle of my thoughts
-[00:14.11]Taken far from my safety
-[00:15.34]The picture\'s there
-[00:16.37]The memory won\'t escape me
-[00:17.39]But why should I care?
-[00:18.86]There\'s a place so dark you can\'t see the end
-[00:20.85](Skies cock back) and shock that which can\'t defend
-[00:23.10]The rain then sends dripping acidic questions
-[00:25.36]Forcefully, the power of suggestion
-[00:27.09]Then with the eyes shut looking through the rust and rot, and dust
-[00:29.59]A small spot of light floods the floor
-[00:31.88]And pours over the rusted world of pretend
-[00:34.12]And the eyes ease open and it\'s dark again
-[00:36.36]From the top to the bottom
-[00:37.61]Bottom to top I stop
-[00:38.60]At the core I\'ve forgotten
-[00:39.86]In the middle of my thoughts
-[00:40.85]Taken far from my safety
-[00:42.09]The picture\'s there
-[00:43.09]The memory won\'t escape me
-[00:44.36]But why should I care?
-[00:45.62]In the memory you\'ll find me
-[00:50.61]Eyes burning up
-[00:54.61]The darkness holding me tightly
-[00:59.13]Until the sun rises up
-[01:07.36]Moving all around
-[01:08.36]Screaming of the ups and downs
-[01:09.61]Pollution manifested in perpetual sound
-[01:11.87]The wheels go \'round and the sunset creeps
-[01:14.10]Behind street lamps, chain-link, and concrete
-[01:16.35]A little piece of paper with a picture drawn
-[01:18.59]Floats on down the street \'til the wind is gone
-[01:20.60]And the memory now is like the picture was then
-[01:22.84]When the paper\'s crumpled up it can\'t be perfect again
-[01:25.12]From the top to the bottom
-[01:26.11]Bottom to top I stop
-[01:27.36]At the core I\'ve forgotten
-[01:28.61]In the middle of my thoughts
-[01:29.61]Taken far from my safety
-[01:30.60]The picture\'s there
-[01:31.61]The memory won\'t escape me
-[01:33.12]But why should I care?
-[01:34.35]From the top to the bottom
-[01:35.36]Bottom to top I stop
-[01:36.09]At the core I\'ve forgotten
-[01:37.13]In the middle of my thoughts
-[01:38.37]Taken far from my safety
-[01:39.76]The picture\'s there
-[01:40.76]The memory won\'t escape me
-[01:42.03]But why should I care?
-[01:43.28]In the memory you\'ll find me
-[01:48.28]Eyes burning up
-[01:52.27]The darkness holding me tightly
-[01:56.76]Until the sun rises up
-[02:05.29]Now you got me caught in the act
-[02:07.03]You bring the thought back
-[02:07.77]Telling you that I see it right through you
-[02:09.78]Now you got me caught in the act
-[02:11.27]You bring the thought back
-[02:12.26]Telling you that I see it right through you
-[02:14.02]Now you got me caught in the act
-[02:15.78]You bring the thought back
-[02:16.51]Telling you that I see it right through you
+[00:09.86]Forfeit the game
+[00:11.37]Before somebody else
+[00:12.61]Takes you outta the frame
+[00:13.60]And puts your name to shame
+[00:15.11]Cover up your face
+[00:16.11]You can\'t run the race
+[00:17.37]The pace is too fast
+[00:18.60]You just won\'t last
+[00:29.63]You love the way I look at you
+[00:33.61]While taking pleasure in the awful things you put me through
+[00:37.61]You take away if I give in
+[00:43.88]My life
+[00:45.88]My pride is broken
+[00:50.10]You like to think you\'re never wrong
+[00:52.12](You live what you\'ve learned)
+[00:54.36]You have to act like you\'re someone
+[00:57.86](You live what you\'ve learned)
+[00:59.86]You want someone to hurt like you
+[01:02.63](You live what you\'ve learned)
+[01:04.88]You want to share what you\'ve been through
+[01:08.60](You live what you\'ve learned)
+[01:15.85]You love the things I say I\'ll do
+[01:18.11]The way I hurt myself again just to get back at you
+[01:24.10]You take away when I give in
+[01:26.87]My life
+[01:31.13]My pride is broken
+[01:33.86]You like to think you\'re never wrong
+[01:38.11](You live what you\'ve learned)
+[01:39.63]You have to act like you\'re someone
+[01:42.60](You live what you\'ve learned)
+[01:46.36]You want someone to hurt like you
+[01:48.37](You live what you\'ve learned)
+[01:50.36]You want to share what you\'ve been through
+[01:53.61](You live what you\'ve learned)
+[01:56.11]Forfeit the game
+[01:56.87]Before somebody else
+[01:57.86]Takes you outta the frame
+[01:59.11]And puts your name to shame
+[02:00.89]Cover up your face
+[02:01.86]You can\'t run the race
+[02:03.13]The pace is too fast
+[02:04.36]You just won\'t last
+[02:06.61]Forfeit the game
+[02:07.36]Before somebody else
+[02:08.36]Takes you outta the frame
+[02:09.61]And puts your name to shame
+[02:11.61]Cover up your face
+[02:12.38]You can\'t run the race
+[02:13.92]The pace is too fast
+[02:14.63]You just won\'t last
+[02:16.86]You like to think you\'re never wrong
+[02:19.36](You live what you\'ve learned)
+[02:20.89]You have to act like you\'re someone
+[02:24.11](You live what you\'ve learned)
+[02:25.61]You want someone to hurt like you
+[02:28.37](You live what you\'ve learned)
+[02:30.86]You want to share what you\'ve been through
+[02:35.61](You live what you\'ve learned
+[02:36.61]You like to think you\'re never wrong
+[02:38.61](Forfeit the game)
+[02:39.60]You live what you\'ve learned
+[02:41.61]You have to act like you\'re someone
+[02:43.37](Forfeit the game)
+[02:44.61]You live what you\'ve learned
+[02:46.38]You want someone to hurt like you
+[02:48.36](Forfeit the game)
+[02:49.62]You live what you\'ve learned
+[02:51.61]You want to share what you\'ve been through
+[02:54.61]You live what you\'ve learned
 ';
 
 
@@ -84,14 +79,19 @@ $linia = '';
 
 $poczatek = 0;
 
+
+$index = 0;
 // $myjson .= 'fragmenty:[';
 
 $numerlini = 0;
-while ($numerlini <  90){
+while ($numerlini <  68){
 
     $linia = substr($lrc, $poczatek, strpos($lrc, "\r\n", $poczatek + 1) - $poczatek);
 
-    $myjson .= '{start:';
+    $myjson .= '{index:'.$index;
+
+
+    $myjson .= ',start:';
 
     $minuty = substr($linia,4,1);
     $czas = str_replace('[03:', '',str_replace('[02:', '',str_replace('[01:', '',str_replace('[00:', '', str_replace('[00:0', '', substr($linia, 0, 11))))));
@@ -133,6 +133,8 @@ while ($numerlini <  90){
     
 
 $numerlini = $numerlini + 1;
+
+$index = $index + 1;
 
 }
 
