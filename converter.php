@@ -1,75 +1,99 @@
+<html>
+<head>
+    <title>KONWERTER</title>
+</head>
+
+</html>
+
+
 <?php
 
 $lrc = '
-[00:09.86]Forfeit the game
-[00:11.37]Before somebody else
-[00:12.61]Takes you outta the frame
-[00:13.60]And puts your name to shame
-[00:15.11]Cover up your face
-[00:16.11]You can\'t run the race
-[00:17.37]The pace is too fast
-[00:18.60]You just won\'t last
-[00:29.63]You love the way I look at you
-[00:33.61]While taking pleasure in the awful things you put me through
-[00:37.61]You take away if I give in
-[00:43.88]My life
-[00:45.88]My pride is broken
-[00:50.10]You like to think you\'re never wrong
-[00:52.12](You live what you\'ve learned)
-[00:54.36]You have to act like you\'re someone
-[00:57.86](You live what you\'ve learned)
-[00:59.86]You want someone to hurt like you
-[01:02.63](You live what you\'ve learned)
-[01:04.88]You want to share what you\'ve been through
-[01:08.60](You live what you\'ve learned)
-[01:15.85]You love the things I say I\'ll do
-[01:18.11]The way I hurt myself again just to get back at you
-[01:24.10]You take away when I give in
-[01:26.87]My life
-[01:31.13]My pride is broken
-[01:33.86]You like to think you\'re never wrong
-[01:38.11](You live what you\'ve learned)
-[01:39.63]You have to act like you\'re someone
-[01:42.60](You live what you\'ve learned)
-[01:46.36]You want someone to hurt like you
-[01:48.37](You live what you\'ve learned)
-[01:50.36]You want to share what you\'ve been through
-[01:53.61](You live what you\'ve learned)
-[01:56.11]Forfeit the game
-[01:56.87]Before somebody else
-[01:57.86]Takes you outta the frame
-[01:59.11]And puts your name to shame
-[02:00.89]Cover up your face
-[02:01.86]You can\'t run the race
-[02:03.13]The pace is too fast
-[02:04.36]You just won\'t last
-[02:06.61]Forfeit the game
-[02:07.36]Before somebody else
-[02:08.36]Takes you outta the frame
-[02:09.61]And puts your name to shame
-[02:11.61]Cover up your face
-[02:12.38]You can\'t run the race
-[02:13.92]The pace is too fast
-[02:14.63]You just won\'t last
-[02:16.86]You like to think you\'re never wrong
-[02:19.36](You live what you\'ve learned)
-[02:20.89]You have to act like you\'re someone
-[02:24.11](You live what you\'ve learned)
-[02:25.61]You want someone to hurt like you
-[02:28.37](You live what you\'ve learned)
-[02:30.86]You want to share what you\'ve been through
-[02:35.61](You live what you\'ve learned
-[02:36.61]You like to think you\'re never wrong
-[02:38.61](Forfeit the game)
-[02:39.60]You live what you\'ve learned
-[02:41.61]You have to act like you\'re someone
-[02:43.37](Forfeit the game)
-[02:44.61]You live what you\'ve learned
-[02:46.38]You want someone to hurt like you
-[02:48.36](Forfeit the game)
-[02:49.62]You live what you\'ve learned
-[02:51.61]You want to share what you\'ve been through
-[02:54.61]You live what you\'ve learned
+[00:28.81]I woke up in a
+[00:31.02]dream today
+[00:32.02]To the cold of the
+[00:32.80]static and put my
+[00:33.78]cold feet on the floor
+[00:34.78]Forgot all about yesterday
+[00:35.77]Remembering I\'m pretending
+[00:37.03]to be where I\'m not anymore
+[00:38.28]A little taste of hypocrisy
+[00:39.54]And I\'m left in
+[00:41.04]the wake of the mistake,
+[00:42.54]slow to react
+[00:44.04]And even though you\'re
+[00:45.53]so close to me
+[00:46.52]You\'re still so distant
+[00:47.28]and I can\'t bring you back
+[00:48.52]It\'s true the way I feel
+[00:51.52]Was promised by your face
+[00:55.52]The sound of your voice
+[00:59.30]Painted on my memories
+[01:01.79]Even if you\'re
+[01:05.26]not with me
+[01:07.54](I\'m with you)
+[01:09.05]You Now I see
+[01:10.53]keeping everything inside
+[01:12.51](with you)
+[01:14.28]You Now I see
+[01:15.28]even when I close my eyes
+[01:18.04]I hit you and
+[01:19.52]you hit me back
+[01:20.55]We fall to the floor,
+[01:21.52]the rest of the day
+[01:22.55]stands still
+[01:23.52]Fine line between
+[01:24.55]this and that
+[01:25.27]When things go wrong
+[01:26.31]I pretend that the
+[01:27.03]past isn\'t real
+[01:28.03]Now I\'m trapped in
+[01:29.00]this memory
+[01:30.28]And I\'m left in
+[01:31.01]the wake of the mistake,
+[01:31.78] slow to react
+[01:33.04]So even though
+[01:34.04]you\'re close to me
+[01:35.03]You\'re still so distant
+[01:36.03]and I can\'t bring you back
+[01:37.06]It\'s true the way I feel
+[01:39.02]Was promised by your face
+[01:43.53]The sound of your voice
+[01:48.01]Painted on my memories
+[01:51.79]Even if you\'re
+[01:53.77]not with me
+[01:56.02](I\'m with you)
+[01:58.61]You Now I see
+[01:59.55]keeping everything inside
+[02:01.02](with you)
+[02:03.30]You Now I see even
+[02:04.53]when I close my eyes
+[02:06.27](with you)
+[02:07.77]You Now I see
+[02:09.50]keeping everything inside
+[02:11.28](with you)
+[02:12.76]You Now I see even
+[02:14.53]when I close my eyes
+[02:16.56]No, no matter how
+[02:32.26]far we\'ve come
+[02:34.02]I can\'t wait to see
+[02:36.53]tomorrow
+[02:38.79]No matter how
+[02:40.02]far we\'ve come
+[02:43.06]I, I can\'t wait to
+[02:46.30]see tomorrow
+[02:47.79](with you)
+[02:49.53]You Now I see
+[02:51.04]keeping everything inside
+[02:53.26](with you)
+[02:54.52]You Now I see even
+[02:56.02]when I close my eyes
+[02:57.78](with you)
+[02:59.51]You Now I see
+[03:02.02]keeping everything inside
+[03:03.28](with you)
+[03:04.29]You Now I see even
+[03:06.03]when I close my eyes
 ';
 
 

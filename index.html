@@ -1,41 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teksty piosenek appka</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"></script>
+  <meta charset="utf-8" />
+  <title>Listening appka</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </script>
 </head>
+
 <body>
+
+  <div id="app" class="container">
+
+<div v-if="error" style="color:red"><b> {{error}}</b></div>
+
+    <span v-if="!piosenka">Wybierz utwór:</span>
+    <select name="" id="" v-model="piosenka" @change="setSong()">
+      <option value="forgotten">Linkin Park - Forgotten</option>
+
+      <option value="papercut">Linkin Park - Papercut</option>
+      <option value="authority">Linkin Park - Points of Authority</option>
+      <option value="lpwithyou">Linkin Park - With you</option>
+
+      <option value="radioactive">Imagine Dragons - Radioactive</option>
+      <option value="toysoldiers"> Imagine Dragons - Demons</option>
+      <option value="believer"> Imagine Dragons - Believer</option>
+
+
+      <option value="slowdown">Selena Gomez - slow down</option>
+      <option value="offspring"> The kids aren't alright - The Offspring</option>
+      <option value="tiktok"> Kesha - Tik Tok</option>
+      <option value="toysoldiers"> Eminem - Like Toy Soldiers</option>
+      <option value="unstopabble"> Sia - Unstopabble</option>
+      <option value="chandelier"> Sia - Chandelier</option>
+      <option value="earthwindfire"> Earth, Wind Fire - September</option>
+
+
+
+
+
+
+
+
+
+
     
 
-    <div class="container">
 
-<h3>Choose song</h3>
-        <a href="believer.html">Imagine Dragons - Believer</a><br>
-    
-        <a href="radioactive.html">Imagine Dragons - Radioactive</a><br>
-        <a href="demons.html">Imagine Dragons - Demons</a><br>
+    </select>
+
+    <br>
 
 
-<a href="chandelier.html">Sia - Chandelier</a><br>
-<a href="unstopabble.html">Sia - Unstopabble</a><br>
-<a href="papercut.html">Linkin Park-papercut</a><br>
-<a href="lpforgotten.html">Linkin Park-forgotten</a><br>
-<a href="lpauthority.html">Linkin Park-points of authority </a><br>
+    <div v-show="piosenka">
+      <audio controls id="audioelem" style="width:500px">
+        <source :src="'muzyka/'+ piosenka +'.mp3'" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <br><br>
 
 
-<a href="slowdown.html">Selena Gomez - Slow down</a><br>
-<a href="thekidsoffspring.html">The Offspring - The kids aren't alright</a><br>
-<a href="toysoldiers.html">Like toy soldiers</a>
+      <!-- <button id="ffbutton" @click="next">Run</button> -->
+
+      <p id="napisy"></p>
+
+      <input type="text" v-model="mytext" v-if="fragmentindex >= 0" style="width:500px">
 
 
 
-</div>
 
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <button @click="podejrzyjnapisym">Podejrzyj napisy</button>
+      Fragment: <input style="width:40px" type="number" v-model.number="fragmentindex" :max="fragmenty.length - 1">
+
+      <span v-show="!run">
+        <button @click="next">Następny</button>
+        <button @click="play" v-if="fragmentindex >= 0">Odtwórz</button>
+      </span>
+
+      <img src="audio.webp" alt="" v-if="run" style="width:30px;height:30px">
+
+
+
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+
+
+  <script type="module" src="script.js"></script>
 
 
 
 </body>
+
 </html>
