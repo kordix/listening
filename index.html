@@ -5,6 +5,14 @@
   <meta charset="utf-8" />
   <title>Listening appka</title>
 
+  <style>
+    .marked{
+      text-decoration: underline;
+      color:red;
+      font-weight:bold;
+    }
+  </style>
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   </script>
 </head>
@@ -35,6 +43,8 @@
       <option value="unstopabble"> Sia - Unstopabble</option>
       <option value="chandelier"> Sia - Chandelier</option>
       <option value="earthwindfire"> Earth, Wind Fire - September</option>
+      <option value="venom"> Ghostmane - Venom</option>
+
 
 
 
@@ -67,16 +77,9 @@
 
       <input type="text" v-model="mytext" v-if="fragmentindex >= 0" style="width:500px">
 
-
-
-
-
       <br>
       <br>
-      <br>
-      <br>
-      <br>
-      <button @click="podejrzyjnapisym">Podejrzyj napisy</button>
+      <button @click="podejrzyjnapisym" v-if="fragmentindex >= 0">Podejrzyj napisy</button>
       Fragment: <input style="width:40px" type="number" v-model.number="fragmentindex" :max="fragmenty.length - 1">
 
       <span v-show="!run">
@@ -85,6 +88,13 @@
       </span>
 
       <img src="audio.webp" alt="" v-if="run" style="width:30px;height:30px">
+
+
+      <br>
+<br><br>
+      <button @click="showAllText()">Pokaż cały tekst</button>
+      <br>
+      <p style="white-space: pre-line" v-for="(elem,index) in fragmenty" :class="{marked:index==fragmentindex}" v-if="alltext"> {{elem.tekst}}</p>
 
 
 

@@ -5,29 +5,41 @@ import dane from './dane.js';
 let app = new Vue({
   el: '#app',
   data: {
-    error:'',
-    run:false,
-    piosenka:'',
+    error: '',
+    run: false,
+    piosenka: '',
     mytext: '',
-    dane:dane,
+    dane: dane,
     fragmenty: {},
     fragmentindex: 0,
-    napisy: false
+    napisy: false,
+    alltext: ''
 
   },
+  mounted() {
+    if (localStorage.piosenka) {
+      this.piosenka = localStorage.piosenka;
+      this.setSong();
+
+      if (localStorage.fragmentindex) {
+        this.fragmentindex = parseInt(localStorage.fragmentindex);
+      }
+    }
+  },
   methods: {
-    setSong(){
-        this.error = '';
-        this.fragmentindex = -1;
-        console.log('SET SONG');
-        document.getElementById("audioelem").setAttribute('src', 'muzyka/'+this.piosenka+'.mp3');
-        this.fragmenty  = this.dane[this.piosenka];
+    setSong() {
+      this.error = '';
+      this.fragmentindex = -1;
+      console.log('SET SONG');
+      document.getElementById("audioelem").setAttribute('src', 'muzyka/' + this.piosenka + '.mp3');
+      this.fragmenty = this.dane[this.piosenka];
+      localStorage.piosenka = this.piosenka;
 
     },
     play() {
-   
 
-        this.run = true;
+
+      this.run = true;
       document.getElementById('napisy').innerHTML = '';
 
 
@@ -42,21 +54,37 @@ let app = new Vue({
         self.run = false;
       }, self.fragmenty[self.fragmentindex].duration * 1000);
 
+      localStorage.fragmentindex = this.fragmentindex;
+
 
 
     },
-    next(){
-        if(this.fragmentindex >= this.fragmenty.length - 1){
-            this.error = 'KONIEC';
-            return;
-        }
+    next() {
+      if (this.fragmentindex >= this.fragmenty.length - 1) {
+        this.error = 'KONIEC';
+        return;
+      }
 
-        this.fragmentindex = this.fragmentindex + 1;
-        this.play();
+      this.fragmentindex = this.fragmentindex + 1;
+      this.play();
     },
 
-    podejrzyjnapisym(){
+    podejrzyjnapisym() {
       document.getElementById('napisy').innerHTML = this.fragmenty[this.fragmentindex].tekst;
+    },
+    showAllText() {
+      let self = this;
+      if (!self.alltext) {
+        this.fragmenty.forEach(function (element, index, array) {
+          self.alltext += element.tekst + "\n";
+
+
+        })
+
+      } else{
+        this.alltext = '';
+      }
+
     }
   }
 

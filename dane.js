@@ -358,6 +358,41 @@ let fragmenty =
     , { index: 65, start: 136.56, tekst: 'No, no matter how', duration: 16.2 }
     , { index: 66, start: 152.26, tekst: 'far we\'ve come', duration: 2.26 }
     , { index: 67, start: 154.02, tekst: 'I can\'t wait to see', duration: 3.01 }
+  ],
+  venom: [
+    { index: 0, start: 25.90, tekst: 'All these punk motherfuckers don\'t know', duration: 3.26 }
+    , { index: 1, start: 28.66, tekst: 'They running their mouth like I won\'t kick in their door', duration: 3.89 }
+    , { index: 2, start: 32.05, tekst: 'All these punk motherfuckers hitting my phone', duration: 3.75 }
+    , { index: 3, start: 35.30, tekst: 'You think we boys, I never seen you at one of my shows', duration: 4 }
+    , { index: 4, start: 39.3, tekst: 'See, I been fucking up my life no joke', duration:3.7 }
+    , { index: 5, start: 42.5, tekst: 'Tatted my face, quit my job, went broke', duration: 4 }
+    , { index: 6, start: 45.5, tekst: 'But I been loving every day a little more', duration: 3.9 }
+    , { index: 7, start: 48.4, tekst: 'When you hear that wooden block, you know it\'s only ghoste', duration: 4.3 }
+    , { index: 8, start: 52.4, tekst: 'Made in the image of what they call Satan', duration: 2.5 }
+    , { index: 9, start: 54.2, tekst: 'The blade is serrated and decapitating', duration: 2.6 }
+    , { index: 10, start: 56.8, tekst: 'The brain of sedated and awaiting heads', duration: 2.51 }
+    // , { index: 15, start: 70.84, tekst: 'Never to let them think freely again', duration: 2 }
+    , { index: 11, start: 59, tekst: 'Put em in an underwater grave', duration: 2 }
+    , { index: 12, start: 60.7, tekst: 'Better pay your attention to what I am about to say', duration: 2.5 }
+    , { index: 13, start: 62.5, tekst: 'Fuck what your friends say Fuck what the man say', duration: 4.2 }
+    , { index: 14, start: 66, tekst: 'I been licking venom off my gums', duration: 3 }
+    , { index: 15, start: 69, tekst: 'Getting faded off the blood of my girl', duration: 3.99 }
+    , { index: 16, start: 73, tekst: 'I cut her on the face, she told me "more"', duration: 3.41 }
+    , { index: 17, start: 76.4, tekst: 'She got blood on my grandma floor', duration: 4.09 }
+    , { index: 18, start: 80, tekst: 'Bitch, I\'m draped in Ghost Supply head to toe', duration: 3.75 }
+    , { index: 25, start: 84, tekst: 'Y\'all were sleeping, I don\'t want your damn clothes', duration: 3.9 }
+    , { index: 26, start: 98.48, tekst: 'My chick gon\' to seduce your damn girl', duration: 3.64 }
+    , { index: 27, start: 101.62, tekst: 'We tag-teaming like we wrestling for the belt', duration: 3.14 }
+    , { index: 28, start: 104.26, tekst: '(Lay down your soul)', duration: 3.15 }
+    , { index: 29, start: 106.91, tekst: 'All these punk motherfuckers don\'t know', duration: 3.49 }
+    , { index: 30, start: 109.9, tekst: 'They running their mouth like I won\'t kick in their door', duration: 3.75 }
+    , { index: 31, start: 113.15, tekst: 'All these punk motherfuckers hitting my phone', duration: 4 }
+    , { index: 32, start: 116.65, tekst: 'You think we boys, I never seen you at one of my shows', duration: 3.65 }
+    , { index: 33, start: 119.8, tekst: 'All these punk motherfuckers don\'t know', duration: 3.76 }
+    , { index: 34, start: 123.06, tekst: 'They running their mouth like I won\'t kick in their door', duration: 4 }
+    , { index: 35, start: 126.56, tekst: 'All these punk motherfuckers hitting my phone', duration: 3.75 }
+    , { index: 36, start: 129.81, tekst: 'You think we boys, I never seen you at one of my shows', duration: -129.31 }
+
   ]
 
 
