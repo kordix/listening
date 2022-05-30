@@ -393,6 +393,40 @@ let fragmenty =
     , { index: 35, start: 126.56, tekst: 'All these punk motherfuckers hitting my phone', duration: 3.75 }
     , { index: 36, start: 129.81, tekst: 'You think we boys, I never seen you at one of my shows', duration: -129.31 }
 
+  ],
+  science:[
+    {index:1,start: 22,tekst:'Making two possibilities a reality',duration:3},
+    {index:2,start: 25,tekst:'Predicting the future of things we all know',duration:2.7},
+    {index:3,start: 27.7,tekst:'Fighting off the diseased programming',duration:2.6},
+    {index:4,start: 30,tekst:'Of centuries, centuries, centuries, centuries',duration:3},
+    {index:5,start: 33,tekst:'Science fails to recognize the single most',duration:2.8},
+    {index:6,start: 35.8,tekst:'Potent element of human existence',duration:3},
+    {index:7,start: 38.6,tekst:'Letting the reigns go to the unfolding',duration:2.6},
+    {index:8,start: 41.5,tekst:'Is faith, faith, faith, faith',duration:3},
+    {index:9,start: 44.5,tekst:'Science has failed our world',duration:3},
+    {index:10,start: 47.5,tekst:'Science has failed our Mother Earth',duration:6},
+    {index:11,start: 75,tekst:'Spirit moves through all things',duration:5},
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
   ]
 
 

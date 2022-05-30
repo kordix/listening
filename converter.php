@@ -9,43 +9,33 @@
 <?php
 
 $lrc = '
-[00:25.90]All these punk motherfuckers don\'t know
-[00:28.66]They running their mouth like I won\'t kick in their door
-[00:32.05]All these punk motherfuckers hitting my phone
-[00:35.30]You think we boys, I never seen you at one of my shows
-[00:38.80]All these punk motherfuckers don\'t know
-[00:42.04]They running their mouth like I won\'t kick in their door
-[00:45.55]All these punk motherfuckers hitting my phone
-[00:48.81]You think we boys, I never seen you at one of my shows
-[00:52.30]See, I been fucking up my life no joke
-[00:55.29]Tatted my face, quit my job, went broke
-[00:58.54]But I been loving every day a little more
-[01:02.05]When you hear that wooden block, you know it\'s only ghoste
-[01:05.69]Made in the image of what they call Satan
-[01:07.33]The blade is serrated and decapitating
-[01:08.83]The brain of sedated and awaiting heads
-[01:10.84]Never to let them think freely again
-[01:12.34]Put em in an underwater grave
-[01:13.59]Better pay your attention to what I am about to say
-[01:15.33]Fuck what your friends say
-[01:17.83]Fuck what the man say
-[01:19.34]I been licking venom off my gums
-[01:21.84]Getting faded off the blood of my girl
-[01:25.33]I cut her on the face, she told me "more"
-[01:28.24]She got blood on my grandma floor
-[01:31.83]Bitch, I\'m draped in Ghost Supply head to toe
-[01:35.08]Y\'all were sleeping, I don\'t want your damn clothes
-[01:38.48]My chick gon\' to seduce your damn girl
-[01:41.62]We tag-teaming like we wrestling for the belt
-[01:44.26](Lay down your soul)
-[01:46.91]All these punk motherfuckers don\'t know
-[01:49.90]They running their mouth like I won\'t kick in their door
-[01:53.15]All these punk motherfuckers hitting my phone
-[01:56.65]You think we boys, I never seen you at one of my shows
-[01:59.80]All these punk motherfuckers don\'t know
-[02:03.06]They running their mouth like I won\'t kick in their door
-[02:06.56]All these punk motherfuckers hitting my phone
-[02:09.81]You think we boys, I never seen you at one of my shows
+[00:50.20]Conversion, software version 7.0
+[00:56.00]Looking at life through the eyes of a tire hub
+[01:01.50]Eating seeds as a pastime activity
+[01:08.70]The toxicity of our city, of our city
+[01:14.10]New, what do you own the world?
+[01:16.20]How do you own disorder, disorder
+[01:19.70]Now, somewhere between the sacred silence, sacred silence and sleep
+[01:26.00]Somewhere between the sacred silence and sleep
+[01:31.60]Disorder, disorder, disorder
+[01:51.90]More wood for their fires, loud neighbours
+[01:57.50]Flashlight reveries caught in the headlights of a truck
+[02:03.40]Eating seeds as a pastime activity
+[02:10.70]The toxicity of our city, of our city
+[02:16.10]New, what do you own the world?
+[02:18.30]How do you own disorder, disorder
+[02:21.90]Now, somewhere between the sacred silence, sacred silence and sleep
+[02:28.00]Somewhere between the sacred silence and sleep
+[02:33.90]Disorder, disorder, disorder
+[03:03.30]New, what do you own the world?
+[03:05.50]How do you own disorder
+[03:09.30]Now, somewhere between the sacred silence, sacred silence and sleep
+[03:15.30]Somewhere between the sacred silence and sleep
+[03:21.10]Disorder, disorder, disorder
+[03:33.10]When I became the sun
+[03:34.50]I shone life into the man\'s hearts
+[03:35.90]When I became the sun
+[03:37.30]I shone life into the man\'s hearts
 ';
 
 
@@ -60,7 +50,9 @@ $index = 0;
 // $myjson .= 'fragmenty:[';
 
 $numerlini = 0;
-while ($numerlini <  68){
+
+$korekta = 0;
+while ($numerlini <  100){
 
     $linia = substr($lrc, $poczatek, strpos($lrc, "\r\n", $poczatek + 1) - $poczatek);
 
