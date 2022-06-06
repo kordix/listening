@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Listening appka</title>
+
+  <style>
+    .marked {
+      text-decoration: underline;
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  </script>
+</head>
+
+<body>
+
+  <div id="app" class="container">
+    <div class="row">
+      <div v-if="error" style="color:red"><b> {{error}}</b></div>
+    </div>
+
+    <span v-if="!piosenka">Wybierz utwór:</span>
+    <select class="form-select"  v-model="piosenka" @change="setSong()">
+      <option value="forgotten">Linkin Park - Forgotten</option>
+
+      <option value="papercut">Linkin Park - Papercut</option>
+      <option value="authority">Linkin Park - Points of Authority</option>
+      <option value="lpwithyou">Linkin Park - With you</option>
+
+      <option value="radioactive">Imagine Dragons - Radioactive</option>
+      <option value="toysoldiers"> Imagine Dragons - Demons</option>
+      <option value="believer"> Imagine Dragons - Believer</option>
+
+
+      <option value="slowdown">Selena Gomez - slow down</option>
+      <option value="offspring"> The kids aren't alright - The Offspring</option>
+      <option value="tiktok"> Kesha - Tik Tok</option>
+      <option value="toysoldiers"> Eminem - Like Toy Soldiers</option>
+      <option value="unstopabble"> Sia - Unstopabble</option>
+      <option value="chandelier"> Sia - Chandelier</option>
+      <option value="earthwindfire"> Earth, Wind Fire - September</option>
+      <option value="venom"> Ghostmane - Venom</option>
+      <option value="science"> SOAD - Science</option>
+    </select>
+
+
+
+
+    <!-- <div v-show="piosenka">
+      <audio controls id="audioelem" style="width:500px">
+        <source :src="'muzyka/'+ piosenka +'.mp3'" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <p id="napisy"></p>
+
+      <input type="text" v-model="mytext" v-if="fragmentindex >= 0" style="width:500px">
+
+
+
+      Fragment: <input style="width:40px" type="number" v-model.number="fragmentindex" :max="fragmenty.length - 1">
+
+
+
+
+
+      <button @click="podejrzyjnapisym" class="btn btn-primary" v-if="fragmentindex >= 0">Podejrzyj napisy</button>
+
+
+      <span v-show="!run">
+        <button @click="next" class="btn btn-success">Następny</button>
+        <button @click="play" class="btn btn-danger" v-if="fragmentindex >= 0">Odtwórz</button>
+      </span>
+
+      <img src="audio.webp" alt="" v-if="run" style="width:30px;height:30px">
+
+
+
+
+
+
+      <button @click="showAllText()">Pokaż cały tekst</button>
+
+      <p style="white-space: pre-line" v-for="(elem,index) in fragmenty" :class="{marked:index==fragmentindex}"
+        v-if="alltext"> {{elem.tekst}}</p>
+
+
+
+
+    </div> -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+
+
+  <script type="module" src="script.js"></script>
+
+
+
+</body>
+
+</html>

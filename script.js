@@ -17,6 +17,7 @@ let app = new Vue({
 
   },
   mounted() {
+    // localStorage.clear();
     if (localStorage.piosenka) {
       this.piosenka = localStorage.piosenka;
       this.setSong();
