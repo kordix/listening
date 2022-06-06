@@ -37,7 +37,7 @@
             <option value="lpwithyou">Linkin Park - With you</option>
 
             <option value="radioactive">Imagine Dragons - Radioactive</option>
-            <option value="toysoldiers"> Imagine Dragons - Demons</option>
+            <option value="demons"> Imagine Dragons - Demons</option>
             <option value="believer"> Imagine Dragons - Believer</option>
 
 
@@ -55,7 +55,7 @@
         <br>
         <div v-show="piosenka">
 
-            <audio controls id="audioelem" style="width:500px">
+            <audio controls id="audioelem">
                 <source :src="'muzyka/'+ piosenka +'.mp3'" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
@@ -101,7 +101,7 @@
             <br><br><br><br><br>
 
             <div style="display:flex;justify-content:flex-end;">
-                <button @click="showAllText()" style="opacity:0.6">Pokaż cały tekst</button>
+                <button @click="showAllText()" style="opacity:0.3">Pokaż cały tekst</button>
             </div>
             <p style="white-space: pre-line" v-for="(elem,index) in fragmenty" :class="{marked:index==fragmentindex}"
                 v-if="alltext"> {{elem.tekst}}</p>
