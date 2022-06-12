@@ -13,7 +13,7 @@ let app = new Vue({
     fragmenty: {},
     fragmentindex: 0,
     napisy: false,
-    alltext: ''
+    alltext: false
 
   },
   mounted() {
@@ -75,16 +75,7 @@ let app = new Vue({
     },
     showAllText() {
       let self = this;
-      if (!self.alltext) {
-        this.fragmenty.forEach(function (element, index, array) {
-          self.alltext += element.tekst + "\n";
-
-
-        })
-
-      } else{
-        this.alltext = '';
-      }
+      self.alltext = !self.alltext;
 
     }
   }

@@ -364,7 +364,7 @@ let fragmenty =
     , { index: 1, start: 28.66, tekst: 'They running their mouth like I won\'t kick in their door', duration: 3.89 }
     , { index: 2, start: 32.05, tekst: 'All these punk motherfuckers hitting my phone', duration: 3.75 }
     , { index: 3, start: 35.30, tekst: 'You think we boys, I never seen you at one of my shows', duration: 4 }
-    , { index: 4, start: 39.3, tekst: 'See, I been fucking up my life no joke', duration:3.7 }
+    , { index: 4, start: 39.3, tekst: 'See, I been fucking up my life no joke', duration: 3.7 }
     , { index: 5, start: 42.5, tekst: 'Tatted my face, quit my job, went broke', duration: 4 }
     , { index: 6, start: 45.5, tekst: 'But I been loving every day a little more', duration: 3.9 }
     , { index: 7, start: 48.4, tekst: 'When you hear that wooden block, you know it\'s only ghoste', duration: 4.3 }
@@ -394,38 +394,84 @@ let fragmenty =
     , { index: 36, start: 129.81, tekst: 'You think we boys, I never seen you at one of my shows', duration: -129.31 }
 
   ],
-  science:[
-    {index:1,start: 22,tekst:'Making two possibilities a reality',duration:3},
-    {index:2,start: 25,tekst:'Predicting the future of things we all know',duration:2.7},
-    {index:3,start: 27.7,tekst:'Fighting off the diseased programming',duration:2.6},
-    {index:4,start: 30,tekst:'Of centuries, centuries, centuries, centuries',duration:3},
-    {index:5,start: 33,tekst:'Science fails to recognize the single most',duration:2.8},
-    {index:6,start: 35.8,tekst:'Potent element of human existence',duration:3},
-    {index:7,start: 38.6,tekst:'Letting the reigns go to the unfolding',duration:2.6},
-    {index:8,start: 41.5,tekst:'Is faith, faith, faith, faith',duration:3},
-    {index:9,start: 44.5,tekst:'Science has failed our world',duration:3},
-    {index:10,start: 47.5,tekst:'Science has failed our Mother Earth',duration:6},
-    {index:11,start: 75,tekst:'Spirit moves through all things',duration:5},
+  science: [
+    { index: 1, start: 22, tekst: 'Making two possibilities a reality', duration: 3 },
+    { index: 2, start: 25, tekst: 'Predicting the future of things we all know', duration: 2.7 },
+    { index: 3, start: 27.7, tekst: 'Fighting off the diseased programming', duration: 2.6 },
+    { index: 4, start: 30, tekst: 'Of centuries, centuries, centuries, centuries', duration: 3 },
+    { index: 5, start: 33, tekst: 'Science fails to recognize the single most', duration: 2.8 },
+    { index: 6, start: 35.8, tekst: 'Potent element of human existence', duration: 3 },
+    { index: 7, start: 38.6, tekst: 'Letting the reigns go to the unfolding', duration: 2.6 },
+    { index: 8, start: 41.5, tekst: 'Is faith, faith, faith, faith', duration: 3 },
+    { index: 9, start: 44.5, tekst: 'Science has failed our world', duration: 3 },
+    { index: 10, start: 47.5, tekst: 'Science has failed our Mother Earth', duration: 6 },
+    { index: 11, start: 75, tekst: 'Spirit moves through all things', duration: 5 },
+  ],
+  jetpilot: [
+    { index: 0, start: 0.05, tekst: 'Wired were the eyes of a horse on a jet pilot', duration: 3.35 }
+    , { index: 1, start: 2.90, tekst: 'One that smiled when he flew over the bay', duration: 2.79 }
+    , { index: 2, start: 5.19, tekst: 'Wired were the eyes of a horse on a jet pilot', duration: 3.15 }
+    , { index: 3, start: 7.84, tekst: 'One that smiled when he flew over the bay', duration: 10.4 }
+    , { index: 4, start: 17.74, tekst: 'My horse is a shackled old man', duration: 5.65 }
+    , { index: 5, start: 22.89, tekst: 'His, his remorse, was that he couldn/\'t survey', duration: 5.49 }
+    , { index: 6, start: 27.88, tekst: 'The skies, right before, right before they went gray', duration: 5.51 }
+    , { index: 7, start: 32.89, tekst: 'My horse and my remorse flying over a great bay', duration: 5.65 }
+    , { index: 8, start: 38.04, tekst: 'Wired were the eyes of a horse on a jet pilot', duration: 3.24 }
+    , { index: 9, start: 40.78, tekst: 'One that smiled when he flew over the bay', duration: 3.01 }
+    , { index: 10, start: 43.29, tekst: 'Wired were the eyes of a horse on a jet pilot', duration: 2.99 }
+    , { index: 11, start: 45.78, tekst: 'One that smiled when he flew over the bay', duration: 5.01 }
+    , { index: 12, start: 50.29, tekst: 'My source is the source of all creation', duration: 6.15 }
+    , { index: 13, start: 55.94, tekst: 'Her discourse is that we all don/\'t survey', duration: 4.99 }
+    , { index: 14, start: 60.43, tekst: 'The skies right before, right before they go grey', duration: 5.76 }
+    , { index: 15, start: 65.69, tekst: 'My source and my remorse flying over a great bay', duration: 5.39 }
+    , { index: 16, start: 70.58, tekst: 'Wired were the eyes of a horse on a jet pilot', duration: 3.5 }
+    , { index: 17, start: 73.58, tekst: 'One that smiled when he flew over the bay', duration: 2.75 }
+    , { index: 18, start: 75.83, tekst: 'Wired were the eyes of a horse on a jet pilot', duration: 3.01 }
+    , { index: 19, start: 78.34, tekst: 'One that smiled when he flew over the bay', duration: 2.99 }
+    , { index: 20, start: 80.83, tekst: 'Where were the eyes of a horse on a jet pilot', duration: 3.39 }
+    , { index: 21, start: 83.72, tekst: 'One that smiled when he flew over the bay', duration: 2.65 }
+    , { index: 22, start: 85.87, tekst: 'Where were the eyes of a horse on a jet pilot', duration: 3.4 }
+    , { index: 23, start: 88.77, tekst: 'One that smiled when he flew over the bay', duration: 17.24 }
+    , { index: 24, start: 105.51, tekst: 'Wired were the eyes of a horse on a jet pilot', duration: 3.4 }
+    , { index: 25, start: 108.41, tekst: 'One that smiled when he flew over the bay', duration: 2.49 }
+    , { index: 26, start: 110.4, tekst: 'Wired were the eyes of a horse on a jet pilot', duration: 3.26 }
+    , { index: 27, start: 113.16, tekst: 'One that smiled when he flew over the bay', duration: 2.75 }
+    , { index: 28, start: 115.41, tekst: 'Where were the eyes of a horse on a jet pilot', duration: 3.25 }
+    , { index: 29, start: 118.16, tekst: 'One that smiled when he flew over the bay', duration: 2.74 }
+    , { index: 30, start: 120.4, tekst: 'Where were the eyes of a horse on a jet pilot', duration: 3.25 }
+    , { index: 31, start: 123.15, tekst: 'One that smiled when he flew over the bay', duration: 5.65 }
 
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-  
-
-
+  ],
+  deerdance: [
+    { index: 0, start: 17.80, tekst: 'Circumventing circuses,', duration: 1.68 }
+    , { index: 1, start: 18.98, tekst: 'Lamenting in protest,', duration: 1.99 }
+    , { index: 2, start: 20.47, tekst: 'To visible police,', duration: 1.99 }
+    , { index: 3, start: 21.96, tekst: 'Presence sponsored fear,', duration: 2 }
+    , { index: 4, start: 23.46, tekst: 'Battalions of riot police,', duration: 1.8 }
+    , { index: 5, start: 24.76, tekst: 'With rubber bullet kisses,', duration: 2.06 }
+    , { index: 6, start: 26.32, tekst: 'Baton courtesy,', duration: 1.93 }
+    , { index: 7, start: 27.75, tekst: 'Service with a smile', duration: 1.99 }
+    , { index: 8, start: 29.24, tekst: 'Beyond the Staples Center you can see America,', duration: 3.49 }
+    , { index: 9, start: 32.23, tekst: 'With its tired, poor, avenging disgrace,', duration: 3.42 }
+    , { index: 10, start: 35.15, tekst: 'Peaceful, loving youth against the brutality,', duration: 4.55 }
+    , { index: 11, start: 39.20, tekst: 'Of plastic existence.', duration: 2.42 }
+    , { index: 12, start: 41.12, tekst: 'Pushing little children,', duration: 2.24 }
+    , { index: 13, start: 42.86, tekst: 'With their fully automatics, They like to push the weak around', duration: 6 }
+    , { index: 14, start: 58.79, tekst: 'A rush of words,', duration: 1.8 }
+    , { index: 15, start: 60.09, tekst: 'Pleading to disperse,', duration: 2.39 }
+    , { index: 16, start: 61.98, tekst: 'Upon your naked walls, alive,', duration: 3.48 }
+    , { index: 17, start: 64.96, tekst: 'A political call,', duration: 1.81 }
+    , { index: 18, start: 66.27, tekst: 'The fall guy accord,', duration: 2.05 }
+    , { index: 19, start: 67.82, tekst: 'We can\'t afford to be neutral on a moving train, ', duration: 38.12 }
+    , { index: 20, start: 105.44, tekst: 'Push them around,', duration: 7.48 }
+    , { index: 21, start: 112.42, tekst: 'A deer dance, invitation to peace,', duration: 4.14 }
+    , { index: 22, start: 116.06, tekst: 'War staring you in the face, dressed in black.', duration: 9.44 }
+    , { index: 23, start: 125, tekst: 'With a helmet, fierce,', duration: 3.57 }
+    , { index: 24, start: 128.07, tekst: 'Trained and appropriate for the malcontents,', duration: 5.54 }
+    , { index: 25, start: 133.11, tekst: 'For the disproportioned malcontents,', duration: 4.56 }
+    , {index: 26, start: 137.17, tekst: 'The little boy smiled, it\'ll all be well, ', duration: 3.43}
+    , {index: 27, start: 140.1, tekst: 'The little boy smiled it\'ll all be well, ', duration: 5}
+    , { index: 28, start: 163.34, tekst: 'Push the weak around', duration: 5 }
 
   ]
 

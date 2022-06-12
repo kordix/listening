@@ -8,35 +8,37 @@
 
 <?php
 
-$lrc = '
-[00:50.20]Conversion, software version 7.0
-[00:56.00]Looking at life through the eyes of a tire hub
-[01:01.50]Eating seeds as a pastime activity
-[01:08.70]The toxicity of our city, of our city
-[01:14.10]New, what do you own the world?
-[01:16.20]How do you own disorder, disorder
-[01:19.70]Now, somewhere between the sacred silence, sacred silence and sleep
-[01:26.00]Somewhere between the sacred silence and sleep
-[01:31.60]Disorder, disorder, disorder
-[01:51.90]More wood for their fires, loud neighbours
-[01:57.50]Flashlight reveries caught in the headlights of a truck
-[02:03.40]Eating seeds as a pastime activity
-[02:10.70]The toxicity of our city, of our city
-[02:16.10]New, what do you own the world?
-[02:18.30]How do you own disorder, disorder
-[02:21.90]Now, somewhere between the sacred silence, sacred silence and sleep
-[02:28.00]Somewhere between the sacred silence and sleep
-[02:33.90]Disorder, disorder, disorder
-[03:03.30]New, what do you own the world?
-[03:05.50]How do you own disorder
-[03:09.30]Now, somewhere between the sacred silence, sacred silence and sleep
-[03:15.30]Somewhere between the sacred silence and sleep
-[03:21.10]Disorder, disorder, disorder
-[03:33.10]When I became the sun
-[03:34.50]I shone life into the man\'s hearts
-[03:35.90]When I became the sun
-[03:37.30]I shone life into the man\'s hearts
-';
+$lrc = "
+[00:17.80]Circumventing circuses,
+[00:18.98]Lamenting in protest,
+[00:20.47]To visible police,
+[00:21.96]Presence sponsored fear,
+[00:23.46]Battalions of riot police,
+[00:24.76]With rubber bullet kisses,
+[00:26.32]Baton courtesy,
+[00:27.75]Service with a smile
+[00:29.24][01:10.50]Beyond the Staples Center you can see America,
+[00:32.23][01:13.56]With its tired, poor, avenging disgrace,
+[00:35.15][01:16.42]Peaceful, loving youth against the brutality,
+[00:39.20][01:20.73]Of plastic existence.
+[00:41.12]Pushing little children,
+[00:42.86]With their fully automatics,
+[00:58.79]A rush of words,
+[01:00.09]Pleading to disperse,
+[01:01.98]Upon your naked walls, alive,
+[01:04.96]A political call,
+[01:06.27]The fall guy accord,
+[01:07.82]We can\'t afford to be neutral on a moving train,
+[01:45.44]Push them around,
+[01:52.42]A deer dance, invitation to peace,
+[01:56.06]War staring you in the face, dressed in black.
+[02:05.00]With a helmet, fierce,
+[02:08.07]Trained and appropriate for the malcontents,
+[02:13.11]For the disproportioned malcontents,
+[02:17.17]The little boy smiled, it\'ll all be well,
+[02:20.10]The little boy smiled it\'ll all be well,
+[02:43.34][02:46.27][02:49.26]Push the weak around
+";
 
 
 

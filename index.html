@@ -53,6 +53,10 @@
                     <option value="earthwindfire"> Earth, Wind Fire - September</option>
                     <option value="venom"> Ghostmane - Venom</option>
                     <option value="science"> SOAD - Science</option>
+                    <option value="jetpilot"> SOAD - Jet Pilot</option>
+                    <option value="deerdance"> SOAD - Deer dance</option>
+
+
                 </select>
             </div>
         </div>
@@ -88,13 +92,11 @@
             <div class="row">
 
                 <div class="col">
-                    <button @click="podejrzyjnapisym" class="btn btn-primary" v-if="fragmentindex >= 0">Podejrzyj
-                        napisy</button>
+                    <button @click="podejrzyjnapisym" class="btn btn-primary" v-if="fragmentindex >= 0">Podejrzyj napisy</button>
 
                     <button @click="next" class="btn btn-success" v-show="!run">Następny</button>
 
-                    <button @click="play" class="btn btn-danger" v-if="fragmentindex >= 0"
-                        v-show="!run">Odtwórz</button>
+                    <button @click="play" class="btn btn-danger" v-if="fragmentindex >= 0" v-show="!run">Odtwórz</button>
 
                     <img src="audio.webp" alt="" v-if="run" style="width:30px;height:30px">
 
@@ -108,11 +110,8 @@
             <div style="display:flex;justify-content:flex-end;">
                 <button @click="showAllText()" style="opacity:0.3">Pokaż cały tekst</button>
             </div>
-            <p style="white-space: pre-line" v-for="(elem,index) in fragmenty" :class="{marked:index==fragmentindex}"
-                v-if="alltext"> {{elem.tekst}}</p>
-
-
-
+            <p style="white-space: pre-line;cursor:pointer" v-for="(elem,index) in fragmenty" :class="{marked:index==fragmentindex}"
+                v-show="alltext"  @click="fragmentindex = index">{{index}}. {{elem.tekst}}</p>
 
         </div>
 
