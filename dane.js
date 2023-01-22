@@ -677,6 +677,110 @@ let fragmenty =
     { index: 56, start: 225.8, tekst: 'Run just as fast as I can', duration: 3.7 },
     { index: 57, start: 229, tekst: 'To the middle of nowhere', duration: 2.8 },
     { index: 58, start: 231.3, tekst: 'To the middle of my frustrated fears', duration: 5 }
+  ],
+  borntodie: [
+    {index:0,start: 14.89,tekst:'Why, who me, why?',duration:9.5}
+    ,{index:1,start: 23.89,tekst:'Feet don\'t fail me now',duration:6.24}
+    ,{index:2,start: 29.63,tekst:'Take me to your finish line',duration:4.5}
+    ,{index:3,start: 33.63,tekst:'Oh my heart it breaks every step that I take',duration:5.75}
+    ,{index:4,start: 38.88,tekst:'But I\'m hoping that the gates, they\'ll tell me that you\'re mine',duration:8}
+    ,{index:5,start: 46.38,tekst:'Walking through the city streets',duration:6}
+    ,{index:6,start: 51.88,tekst:'Is it by mistake or design?',duration:4.76}
+    ,{index:7,start: 56.14,tekst:'I feel so alone on a Friday night',duration:5.24}
+    ,{index:8,start:60.88,tekst:'Can you make it feel like home if I tell you you\'re mine?',duration:6.51}
+    ,{index:9,start:66.89,tekst:'It\'s like I told you, honey',duration:2.99}
+    ,{index:10,start:69.38,tekst:'Don\'t make me sad, don\'t make me cry',duration:5.76}
+    ,{index:11,start:74.64,tekst:'Sometimes love is not enough and the road gets tough, I don\'t know why',duration:6.24}
+    ,{index:12,start:80.38,tekst:'Keep making me laugh',duration:3.5}
+    ,{index:13,start:83.38,tekst:'Let\'s go get high',duration:3}
+    ,{index:14,start:85.88,tekst:'The road is long, we carry on',duration:3.25}
+    ,{index:15,start:88.63,tekst:'Try to have fun in the meantime',duration:3.5}
+    ,{index:16,start:91.63,tekst:'Come take a walk on the wild side',duration:3}
+    ,{index:17,start:94.13,tekst:'Let me kiss you hard in the pouring rain',duration:4.5}
+    ,{index:18,start:98.13,tekst:'You like your girls insane',duration:4}
+    ,{index:19,start:101.63,tekst:'So choose your last words, this is the last time',duration:8.25}
+    ,{index:20,start:109.38,tekst:'\'Cause you and I, we were born to die',duration:7.26}
+    ,{index:21,start:116.14,tekst:'Lost but now I am found',duration:6}
+    ,{index:22,start:121.64,tekst:'I can see but once I was blind',duration:4.74}
+    ,{index:23,start:125.88,tekst:'I was so confused as a little child',duration:5.25}
+    ,{index:24,start:130.63,tekst:'Tried to take what I could get',duration:3.26}
+    ,{index:25,start:133.39,tekst:'Scared that I couldn\'t find',duration:3.73}
+    ,{index:26,start:136.62,tekst:'All the answers, honey',duration:3.02}
+    ,{index:27,start:139.14,tekst:'Don\'t make me sad, don\'t make me cry',duration:5.99}
+    ,{index:28,start:144.63,tekst:'Sometimes love is not enough and the road gets tough, I don\'t know why',duration:6}
+    ,{index:29,start:150.13,tekst:'Keep making me laugh',duration:3.26}
+    ,{index:30,start:152.89,tekst:'Let\'s go get high',duration:3.25}
+    ,{index:31,start:155.64,tekst:'The road is long, we carry on',duration:3.24}
+    ,{index:32,start:158.38,tekst:'Try to have fun in the meantime',duration:3.5}
+    ,{index:33,start:161.38,tekst:'Come take a walk on the wild side',duration:3}
+    ,{index:34,start:163.88,tekst:'Come kiss me hard in the pouring rain',duration:4.25}
+    ,{index:35,start:167.63,tekst:'You like your girls insane',duration:4.25}
+    ,{index:36,start:171.38,tekst:'So, choose your last words, this is the last time',duration:8.25}
+    ,{index:37,start:179.13,tekst:'\'Cause you and I, we were born to die',duration:9}
+    ,{index:38,start:187.63,tekst:'We were born to die',duration:6.01}
+    ,{index:39,start:193.14,tekst:'We were born to die',duration:5.24}
+    ,{index:40,start:197.88,tekst:'Come and take a walk on the wild side',duration:3.01}
+    ,{index:41,start:200.39,tekst:'Let me kiss you hard in the pouring rain',duration:4.24}
+    ,{index:42,start:204.13,tekst:'You like your girls insane',duration:5.25}
+    ,{index:43,start:208.88,tekst:'Don\'t make me sad, don\'t make me cry',duration:6}
+    ,{index:44,start:214.38,tekst:'Sometimes love is not enough and the road gets tough, I don\'t know why',duration:6}
+    ,{index:45,start:219.88,tekst:'Keep making me laugh',duration:3.26}
+    ,{index:46,start:222.64,tekst:'Let\'s go get high',duration:3.25}
+    ,{index:47,start:225.39,tekst:'The road is long, we carry on',duration:2.99}
+    ,{index:48,start:227.88,tekst:'Try to have fun in the meantime',duration:3.75}
+    ,{index:49,start:231.13,tekst:'Come take a walk on the wild side',duration:3}
+    ,{index:50,start:233.63,tekst:'Let me kiss you hard in the pouring rain',duration:4.5}
+    ,{index:51,start:237.63,tekst:'You like your girls insane',duration:2.87}
+    ,{index:52,start:240,tekst:'Choose your last words, this is the last time',duration:0.5}
+    ,{index:53,start:240,tekst:'\'Cause you and I, we were born to die (we were born to die)',duration:-239.5}
+  ],
+  outoftouch:[
+    { index: 0, start: 39.11, tekst: 'Shake it up is all that we know', duration: 4.88 },
+    { index: 1, start: 43.49, tekst: 'Using the bodies up as we go', duration: 4.76 },
+    { index: 2, start: 47.75, tekst: 'I\'m waking up to fantasy', duration: 4.53 },
+    { index: 3, start: 51.78, tekst: 'The shades all around aren\'t the colors we used to see', duration: 4.78 },
+    { index: 4, start: 56.06, tekst: 'Broken ice still melts in the sun', duration: 4.53 },
+    { index: 5, start: 60.09, tekst: 'And times that are broken can often be one again', duration: 5.01 },
+    { index: 6, start: 64.6, tekst: 'We\'re soul alone', duration: 2.09 },
+    { index: 7, start: 66.19, tekst: 'And soul really matters to me', duration: 4.33 },
+    { index: 8, start: 70.02, tekst: 'Take a look around', duration: 2.43 },
+    { index: 9, start: 71.95, tekst: 'You\'re out of touch', duration: 2.36 },
+    { index: 10, start: 73.81, tekst: 'I\'m out of time', duration: 3.1 },
+    { index: 11, start: 76.41, tekst: 'But I\'m out of my head when you\'re not around', duration: 4.53 },
+    { index: 12, start: 80.44, tekst: 'You\'re out of touch', duration: 2.26 },
+    { index: 13, start: 82.2, tekst: 'I\'m out of time (time)', duration: 2.52 },
+    { index: 14, start: 84.22, tekst: 'But I\'m out of my head when you\'re not around', duration: 4.81 },
+    { index: 15, start: 88.53, tekst: 'Oh oh oh oh oh oh', duration: 6.29 },
+    { index: 16, start: 94.32, tekst: 'Reaching out for something to hold', duration: 5.02 },
+    { index: 17, start: 98.84, tekst: 'Looking for a love where the climate is cold', duration: 4.53 },
+    { index: 18, start: 102.87, tekst: 'Manic moves and drowsy dreams', duration: 4.76 },
+    { index: 19, start: 107.13, tekst: 'Or living in the middle between the two extremes', duration: 5.03 },
+    { index: 20, start: 111.66, tekst: 'Smoking guns hot to the touch', duration: 4.27 },
+    { index: 21, start: 115.43, tekst: 'Would cool down if we didn\'t use them so much, yeah', duration: 4.78 },
+    { index: 22, start: 119.71, tekst: 'We\'re soul alone', duration: 2.56 },
+    { index: 23, start: 121.77, tekst: 'And soul really matters to me', duration: 4.02 },
+    { index: 24, start: 125.29, tekst: 'Too much', duration: 2.57 },
+    { index: 25, start: 127.36, tekst: 'You\'re out of touch', duration: 2.02 },
+    { index: 26, start: 128.88, tekst: 'I\'m out of time', duration: 3.31 },
+    { index: 27, start: 131.69, tekst: 'But I\'m out of my head when you\'re not around', duration: 4.51 },
+    { index: 28, start: 135.7, tekst: 'You\'re out of touch', duration: 2.26 },
+    { index: 29, start: 137.46, tekst: 'I\'m out of time', duration: 3.02 },
+    { index: 30, start: 139.98, tekst: 'But I\'m out of my head when you\'re not around', duration: 4.3 },
+    { index: 31, start: 143.78, tekst: 'Oh oh oh oh oh oh', duration: 8.58 },
+    { index: 32, start: 151.86, tekst: 'Oh oh oh oh oh oh', duration: 21.98 },
+    { index: 33, start: 173.34, tekst: 'You\'re out of touch', duration: 2.91 },
+    { index: 34, start: 175.75, tekst: 'I\'m out of time', duration: 2.37 },
+    { index: 35, start: 177.62, tekst: 'But I\'m out of my head when you\'re not around', duration: 4.56 },
+    { index: 36, start: 181.68, tekst: 'You\'re out of touch', duration: 2.29 },
+    { index: 37, start: 183.47, tekst: 'I\'m out of time', duration: 2.75 },
+    { index: 38, start: 185.72, tekst: 'But I\'m out of my head when you\'re not around', duration: 4.86 },
+    { index: 39, start: 190.08, tekst: 'You\'re out of touch', duration: 2.81 },
+    { index: 40, start: 192.39, tekst: 'Time', duration: 1.1 },
+    { index: 41, start: 192.99, tekst: 'But I\'m out of my head when you\'re not around', duration: 6.26 },
+    { index: 42, start: 198.75, tekst: 'You\'re out of touch', duration: 2.51 },
+    { index: 43, start: 200.76, tekst: 'I\'m out of time', duration: 5.39 },
+    { index: 44, start: 205.65, tekst: 'Not around', duration: 1.6 },
+    { index: 45, start: 206.75, tekst: 'You\'re out of touch', duration: 2.78 }
   ]
 
 

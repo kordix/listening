@@ -2,6 +2,7 @@ import dane from './dane.js';
 
 
 
+
 let app = new Vue({
   el: '#app',
   data: {
@@ -13,7 +14,9 @@ let app = new Vue({
     fragmenty: {},
     fragmentindex: 0,
     napisy: false,
-    alltext: false
+    alltext: false,
+    przesuniecie: 0,
+    przedluzenie: 0
 
   },
   mounted() {
@@ -39,6 +42,11 @@ let app = new Vue({
     },
     play() {
 
+      if(this.piosenka == 'borntodie'){
+        this.przesuniecie = -2;
+        this.przedluzenie = 0.5;
+      }
+
 
       this.run = true;
       document.getElementById('napisy').innerHTML = '';
@@ -47,13 +55,13 @@ let app = new Vue({
       let self = this;
       let audi = document.getElementById('audioelem');
 
-      audi.currentTime = self.fragmenty[self.fragmentindex].start;
+      audi.currentTime = self.fragmenty[self.fragmentindex].start + this.przesuniecie;
       audi.play();
 
       setTimeout(function () {
         audi.pause();
         self.run = false;
-      }, self.fragmenty[self.fragmentindex].duration * 1000);
+      }, (self.fragmenty[self.fragmentindex].duration + self.przedluzenie) * 1000);
 
       localStorage.fragmentindex = this.fragmentindex;
 

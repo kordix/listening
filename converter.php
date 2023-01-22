@@ -9,35 +9,53 @@
 <?php
 
 $lrc = "
-[00:17.80]Circumventing circuses,
-[00:18.98]Lamenting in protest,
-[00:20.47]To visible police,
-[00:21.96]Presence sponsored fear,
-[00:23.46]Battalions of riot police,
-[00:24.76]With rubber bullet kisses,
-[00:26.32]Baton courtesy,
-[00:27.75]Service with a smile
-[00:29.24]Beyond the Staples Center you can see America,
-[00:32.23]With its tired, poor, avenging disgrace,
-[00:35.15]Peaceful, loving youth against the brutality,
-[00:39.20]Of plastic existence.
-[00:41.12]Pushing little children,
-[00:42.86]With their fully automatics,
-[00:58.79]A rush of words,
-[01:00.09]Pleading to disperse,
-[01:01.98]Upon your naked walls, alive,
-[01:04.96]A political call,
-[01:06.27]The fall guy accord,
-[01:07.82]We can't afford to be neutral on a moving train,
-[01:45.44]Push them around,
-[01:52.42]A deer dance, invitation to peace,
-[01:56.06]War staring you in the face, dressed in black.
-[02:05.00]With a helmet, fierce,
-[02:08.07]Trained and appropriate for the malcontents,
-[02:13.11]For the disproportioned malcontents,
-[02:17.17]The little boy smiled, it'll all be well,
-[02:20.10]The little boy smiled it'll all be well,
-[02:43.34]Push the weak around
+[00:39.11]Shake it up is all that we know
+[00:43.49]Using the bodies up as we go
+[00:47.75]I'm waking up to fantasy
+[00:51.78]The shades all around aren't the colors we used to see
+[00:56.06]Broken ice still melts in the sun
+[01:00.09]And times that are broken can often be one again
+[01:04.60]We're soul alone
+[01:06.19]And soul really matters to me
+[01:10.02]Take a look around
+[01:11.95]You're out of touch
+[01:13.81]I'm out of time
+[01:16.41]But I'm out of my head when you're not around
+[01:20.44]You're out of touch
+[01:22.20]I'm out of time (time)
+[01:24.22]But I'm out of my head when you're not around
+[01:28.53]Oh oh oh oh oh oh
+[01:34.32]Reaching out for something to hold
+[01:38.84]Looking for a love where the climate is cold
+[01:42.87]Manic moves and drowsy dreams
+[01:47.13]Or living in the middle between the two extremes
+[01:51.66]Smoking guns hot to the touch
+[01:55.43]Would cool down if we didn't use them so much, yeah
+[01:59.71]We're soul alone
+[02:01.77]And soul really matters to me
+[02:05.29]Too much
+[02:07.36]You're out of touch
+[02:08.88]I'm out of time
+[02:11.69]But I'm out of my head when you're not around
+[02:15.70]You're out of touch
+[02:17.46]I'm out of time
+[02:19.98]But I'm out of my head when you're not around
+[02:23.78]Oh oh oh oh oh oh
+[02:31.86]Oh oh oh oh oh oh
+[02:53.34]You're out of touch
+[02:55.75]I'm out of time
+[02:57.62]But I'm out of my head when you're not around
+[03:01.68]You're out of touch
+[03:03.47]I'm out of time
+[03:05.72]But I'm out of my head when you're not around
+[03:10.08]You're out of touch
+[03:12.39]Time
+[03:12.99]But I'm out of my head when you're not around
+[03:18.75]You're out of touch
+[03:20.76]I'm out of time
+[03:25.65]Not around
+[03:26.75]You're out of touch
+[03:29.03]I'm out of time
 ";
 
 
@@ -54,7 +72,9 @@ $index = 0;
 $numerlini = 0;
 
 $korekta = 0;
-while ($numerlini <  100){
+
+$ilelini = substr_count($lrc,"\r\n") - 2;
+while ($numerlini <  $ilelini){
 
     $linia = substr($lrc, $poczatek, strpos($lrc, "\r\n", $poczatek + 1) - $poczatek);
 
@@ -70,15 +90,9 @@ while ($numerlini <  100){
         $czas = floatval(floatval($minuty) * 60 + floatval($czas));
     }
 
-    
-
     $myjson .= $czas;
-
     $myjson .= ',tekst:';
-
-
     $myjson .=  '\''.str_replace('\'','\\\'', substr($linia, 12, strlen($linia))).'\'';
-
     $myjson .= ',duration:';
 
     $poczatek += strlen($linia);
@@ -103,7 +117,6 @@ while ($numerlini <  100){
     
 
 $numerlini = $numerlini + 1;
-
 $index = $index + 1;
 
 }
@@ -111,14 +124,7 @@ $index = $index + 1;
 
 
 
-
-
-
-
-
-
-
-
-echo $myjson;
+$myjson = substr($myjson,0,-1);
+echo str_replace('},{',"},<br>{",$myjson );
 
 ?>
