@@ -35,16 +35,12 @@
             <div class="col-lg-5">
                 <select class="form-select" v-model="piosenka" @change="setSong()">
                     <option value="forgotten">Linkin Park - Forgotten</option>
-
                     <option value="papercut">Linkin Park - Papercut</option>
                     <option value="authority">Linkin Park - Points of Authority</option>
                     <option value="lpwithyou">Linkin Park - With you</option>
-
                     <option value="radioactive">Imagine Dragons - Radioactive</option>
                     <option value="demons"> Imagine Dragons - Demons</option>
                     <option value="believer"> Imagine Dragons - Believer</option>
-
-
                     <option value="slowdown">Selena Gomez - slow down</option>
                     <option value="offspring"> The kids aren't alright - The Offspring</option>
                     <option value="tiktok"> Kesha - Tik Tok</option>
@@ -62,7 +58,9 @@
                     <option value="pill"> Pink - Just like a pill</option>
                     <option value="borntodie"> Lana del Rey - Born to Die</option>
                     <option value="outoftouch"> Hall and Oates</option>
-                    <option value="themotto"> Tje motto</option>
+                    <option value="themotto"> The motto</option>
+                    <option value="heavylauri"> Heavy - lauri</option>
+
 
 
                 </select>
@@ -80,9 +78,9 @@
 
             <p id="napisy"></p>
 
-            <div class="row">
+            <div class="row" style="margin-bottom:5px">
                 <div class="col">
-                    <input type="text" v-model="mytext" v-if="fragmentindex >= 0" style="width:500px" class="offmobile">
+                    <input type="text" v-model="mytext" v-if="fragmentindex >= 0" style="width:500px" class="offmobile" placeholder="tu możesz spróbować wpisać tekst">
                 </div>
             </div>
 
