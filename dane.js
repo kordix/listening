@@ -781,6 +781,35 @@ let fragmenty =
     { index: 43, start: 200.76, tekst: 'I\'m out of time', duration: 5.39 },
     { index: 44, start: 205.65, tekst: 'Not around', duration: 1.6 },
     { index: 45, start: 206.75, tekst: 'You\'re out of touch', duration: 2.78 }
+  ],
+  themotto:[
+    { index: 0, start: 3.50, tekst: 'That\'s the motto', duration: 2.75 },
+    { index: 1, start: 5.75, tekst: 'Throw it back with no chaser, with no trouble', duration: 4.49 },
+    { index: 2, start: 9.74, tekst: 'Poppin\' that Moët, baby, let\'s make some bubbles', duration: 3.5 },
+    { index: 3, start: 12.74, tekst: 'Puffin\' on that Gelato, wanna be seeing double', duration: 5.76 },
+    { index: 4, start: 18.00, tekst: 'Gotta do what you gotta', duration: 2.5 },
+    { index: 5, start: 20.00, tekst: 'Believe it, we ain\'t got no plans to leave here', duration: 6.5 },
+    { index: 6, start: 26.00, tekst: 'Tell all of your friends to be here', duration: 4.5 },
+    { index: 7, start: 30.00, tekst: 'We ain\'t gonna sleep all weekend', duration: 4.75 },
+    { index: 8, start: 34.25, tekst: 'Oh, you know, you know, you know that\'s the motto (mhm)', duration: 4.25 },
+    { index: 9, start: 38.00, tekst: 'Drop a few bills then pop a few champagne bottles (mhm)', duration: 3.75 },
+    { index: 10, start: 41.25, tekst: 'Throwin\' that money like you just won the lotto (mhm)', duration: 4.25 },
+    { index: 11, start: 45.00, tekst: 'We been up all damn summer', duration: 3.99 },
+    { index: 12, start: 48.49, tekst: 'Makin\' that bread and butter', duration: 2.75 },
+    { index: 13, start: 50.74, tekst: 'Tell me, did I just stutter?', duration: 2.25 },
+    { index: 14, start: 52.49, tekst: 'That\'s the motto (mhm)', duration: 3.01 },
+    { index: 15, start: 55.00, tekst: 'Drop a few bills then pop a few champagne bottles (mhm)', duration: 2.75 },
+    { index: 16, start: 57.25, tekst: 'Throwin\' that money like you just won the lotto (mhm)', duration: 6.24 },
+    { index: 17, start: 62.99, tekst: 'We been up all damn summer', duration: 2.51 },
+    { index: 18, start: 65, tekst: 'Makin\' that bread and butter', duration: 2.5 },
+    { index: 19, start: 67, tekst: 'Tell me, did I just stutter?', duration: 10.5 },
+    { index: 20, start: 77, tekst: 'Hopped in the Range, can\'t feel my face, the window\'s down', duration: 4.74 },
+    { index: 21, start: 81.24, tekst: 'Back to my place, my birthday cake is coming out', duration: 4.51 },
+    { index: 22, start: 85.25, tekst: 'The way it\'s hittin\' like I can go all night', duration: 6.5 },
+    { index: 23, start: 91.25, tekst: 'Don\'t want no bloodshot eyes', duration: 2.75 },
+    { index: 24, start: 93.5, tekst: 'So hold my drink, let\'s fly', duration: 1.25 },
+    { index: 25, start: 94.25, tekst: 'Believe it, we ain\'t got no plans to leave here', duration: 5.25 },
+    { index: 26, start: 99, tekst: 'Tell all of your friends to be here', duration: 4.25 }
   ]
 
 

@@ -9,53 +9,34 @@
 <?php
 
 $lrc = "
-[00:39.11]Shake it up is all that we know
-[00:43.49]Using the bodies up as we go
-[00:47.75]I'm waking up to fantasy
-[00:51.78]The shades all around aren't the colors we used to see
-[00:56.06]Broken ice still melts in the sun
-[01:00.09]And times that are broken can often be one again
-[01:04.60]We're soul alone
-[01:06.19]And soul really matters to me
-[01:10.02]Take a look around
-[01:11.95]You're out of touch
-[01:13.81]I'm out of time
-[01:16.41]But I'm out of my head when you're not around
-[01:20.44]You're out of touch
-[01:22.20]I'm out of time (time)
-[01:24.22]But I'm out of my head when you're not around
-[01:28.53]Oh oh oh oh oh oh
-[01:34.32]Reaching out for something to hold
-[01:38.84]Looking for a love where the climate is cold
-[01:42.87]Manic moves and drowsy dreams
-[01:47.13]Or living in the middle between the two extremes
-[01:51.66]Smoking guns hot to the touch
-[01:55.43]Would cool down if we didn't use them so much, yeah
-[01:59.71]We're soul alone
-[02:01.77]And soul really matters to me
-[02:05.29]Too much
-[02:07.36]You're out of touch
-[02:08.88]I'm out of time
-[02:11.69]But I'm out of my head when you're not around
-[02:15.70]You're out of touch
-[02:17.46]I'm out of time
-[02:19.98]But I'm out of my head when you're not around
-[02:23.78]Oh oh oh oh oh oh
-[02:31.86]Oh oh oh oh oh oh
-[02:53.34]You're out of touch
-[02:55.75]I'm out of time
-[02:57.62]But I'm out of my head when you're not around
-[03:01.68]You're out of touch
-[03:03.47]I'm out of time
-[03:05.72]But I'm out of my head when you're not around
-[03:10.08]You're out of touch
-[03:12.39]Time
-[03:12.99]But I'm out of my head when you're not around
-[03:18.75]You're out of touch
-[03:20.76]I'm out of time
-[03:25.65]Not around
-[03:26.75]You're out of touch
-[03:29.03]I'm out of time
+[00:03.50]That's the motto
+[00:05.75]Throw it back with no chaser, with no trouble
+[00:09.74]Poppin' that Moët, baby, let's make some bubbles
+[00:12.74]Puffin' on that Gelato, wanna be seeing double
+[00:18.00]Gotta do what you gotta
+[00:20.00]Believe it, we ain't got no plans to leave here
+[00:26.00]Tell all of your friends to be here
+[00:30.00]We ain't gonna sleep all weekend
+[00:34.25]Oh, you know, you know, you know that's the motto (mhm)
+[00:38.00]Drop a few bills then pop a few champagne bottles (mhm)
+[00:41.25]Throwin' that money like you just won the lotto (mhm)
+[00:45.00]We been up all damn summer
+[00:48.49]Makin' that bread and butter
+[00:50.74]Tell me, did I just stutter?
+[00:52.49]That's the motto (mhm)
+[00:55.00]Drop a few bills then pop a few champagne bottles (mhm)
+[00:57.25]Throwin' that money like you just won the lotto (mhm)
+[01:02.99]We been up all damn summer
+[01:05.00]Makin' that bread and butter
+[01:07.00]Tell me, did I just stutter?
+[01:17.00]Hopped in the Range, can't feel my face, the window's down
+[01:21.24]Back to my place, my birthday cake is coming out
+[01:25.25]The way it's hittin' like I can go all night
+[01:31.25]Don't want no bloodshot eyes
+[01:33.50]So hold my drink, let's fly
+[01:34.25]Believe it, we ain't got no plans to leave here
+[01:39.00]Tell all of your friends to be here
+[01:42.75]We ain't gonna sleep all weekend
 ";
 
 
