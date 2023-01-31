@@ -9,55 +9,50 @@
 <?php
 
 $lrc = "
-[00:21.88]They built you a cage of diamonds and gold
-[00:30.56]Most beautiful place for you to grow old
-[00:39.25]They brought you the moon and showed you the light
-[00:47.94]And all that you wanted was freedom to fight
-[00:56.01]
-[00:57.57]It's heavy
-[01:01.57]But you are not the only one
-[01:05.64]Who's tired of giving
-[01:09.94]Afraid of the oblivion
-[01:15.57]Could it be that your curse is a bliss
-[01:19.75]But the crown on your head never felt this heavy
-[01:25.57]
-[01:28.64]Harness your ache
-[01:32.07]Take a leap of faith
-[01:36.57]To claim back your soul
-[01:40.95]Before it's too late
-[01:45.69]Show them no fear
-[01:49.19]Sing them goodbye
-[01:54.56]Leave all that you have
-[01:58.57]And you're free to fly
-[02:03.50]It's heavy
-[02:06.94]But you are not the only one
-[02:11.81]Who's tired of giving
-[02:16.12]Afraid of the oblivion
-[02:21.01]Could it be that your curse is a bliss
-[02:25.20]But the weight of the world never felt this heavy
-[02:31.88]
-[02:33.56]Take the evident
-[02:36.56]Leap of faith
-[02:40.88]Don't you be afraid
-[02:46.51]
-[02:47.95]It's heavy
-[02:51.19]But you are not the only one
-[02:55.75]Who's tired of giving
-[02:59.81]Afraid of the oblivion
-[03:05.06]Could it be that your curse is a bliss
-[03:09.57]But the cross that you bare never felt this heavy
-[03:16.62]
-[03:17.56]Oh you are not the only one
-[03:22.56]Tired of living
-[03:26.00]Afraid of the oblivion
-[03:31.50]'Cos the crown on your head
-[03:33.87]The smile that you wear
-[03:36.11]The cross that you bare
-[03:38.55]Never felt this heavy
-[03:43.18]
-[03:44.50]You are not the only one
-[03:47.62]
-[03:54.50]The crown on your head never felt this heavy
+[00:14.79]Her name is Noelle
+[00:17.55]I have a dream about her
+[00:20.05]She rings my bell
+[00:22.29]I got gym class in half an hour
+[00:25.30]Oh, how she rocks
+[00:27.33]In Keds and tube socks
+[00:30.09]But she doesn't know who I am
+[00:35.06]And she doesn't give a damn about me
+[00:40.05]'Cause I'm just a teenage dirtbag, baby
+[00:45.28]Yeah, I'm just a teenage dirtbag, baby
+[00:50.51]Listen to Iron Maiden, baby, with me
+[00:56.89]Oo-o-o-oo-o-oh
+[01:11.64]Her boyfriend's a dick
+[01:14.51]And he brings a gun to school
+[01:16.92]And he'd simply kick
+[01:19.43]My ass if he knew the truth
+[01:22.06]He lives on my block
+[01:24.34]And he drives an IROC
+[01:26.81]But he doesn't know who I am
+[01:32.10]And he doesn't give a damn about me
+[01:37.07]'Cause I'm just a teenage dirtbag, baby
+[01:42.33]Yeah, I'm just a teenage dirtbag, baby
+[01:47.57]Listen to Iron Maiden, baby, with me
+[01:54.10]Oo-o-o-oo-o-oh
+[02:00.53]Oh yeah, dirtbag
+[02:05.90]No, she doesn't know what she's missing
+[02:10.59]Oh yeah, dirtbag
+[02:16.30]No, she doesn't know what she's missing
+[02:23.99]Man, I feel like mold
+[02:26.76]It's prom night and I am lonely
+[02:29.52]Lo and behold
+[02:31.86]She's walking over to me
+[02:34.62]This must be fake
+[02:36.64]My lip starts to shake
+[02:39.62]How does she know who I am?
+[02:44.44]And why does she give a damn about me?
+[02:49.11]I've got two tickets to Iron Maiden, baby
+[02:54.86]Come with me Friday, don't say maybe
+[02:59.86]I'm just a teenage dirtbag baby like you
+[03:06.37]Oo-o-oo-oh
+[03:12.88]Oh yeah, dirtbag
+[03:18.39]No, she doesn't know what she's missing
+[03:22.87]Oh yeah, dirtbag
+[03:28.15]No, she doesn't know what she's missing
 ";
 
 
