@@ -22,11 +22,11 @@ let app = new Vue({
   mounted() {
     // localStorage.clear();
     if (localStorage.piosenka) {
-      this.piosenka = localStorage.piosenka;
-      this.setSong();
+     // this.piosenka = localStorage.piosenka;
+     // this.setSong();
 
       if (localStorage.fragmentindex) {
-        this.fragmentindex = parseInt(localStorage.fragmentindex);
+       // this.fragmentindex = parseInt(localStorage.fragmentindex);
       }
     }
   },

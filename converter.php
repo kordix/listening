@@ -9,50 +9,38 @@
 <?php
 
 $lrc = "
-[00:14.79]Her name is Noelle
-[00:17.55]I have a dream about her
-[00:20.05]She rings my bell
-[00:22.29]I got gym class in half an hour
-[00:25.30]Oh, how she rocks
-[00:27.33]In Keds and tube socks
-[00:30.09]But she doesn't know who I am
-[00:35.06]And she doesn't give a damn about me
-[00:40.05]'Cause I'm just a teenage dirtbag, baby
-[00:45.28]Yeah, I'm just a teenage dirtbag, baby
-[00:50.51]Listen to Iron Maiden, baby, with me
-[00:56.89]Oo-o-o-oo-o-oh
-[01:11.64]Her boyfriend's a dick
-[01:14.51]And he brings a gun to school
-[01:16.92]And he'd simply kick
-[01:19.43]My ass if he knew the truth
-[01:22.06]He lives on my block
-[01:24.34]And he drives an IROC
-[01:26.81]But he doesn't know who I am
-[01:32.10]And he doesn't give a damn about me
-[01:37.07]'Cause I'm just a teenage dirtbag, baby
-[01:42.33]Yeah, I'm just a teenage dirtbag, baby
-[01:47.57]Listen to Iron Maiden, baby, with me
-[01:54.10]Oo-o-o-oo-o-oh
-[02:00.53]Oh yeah, dirtbag
-[02:05.90]No, she doesn't know what she's missing
-[02:10.59]Oh yeah, dirtbag
-[02:16.30]No, she doesn't know what she's missing
-[02:23.99]Man, I feel like mold
-[02:26.76]It's prom night and I am lonely
-[02:29.52]Lo and behold
-[02:31.86]She's walking over to me
-[02:34.62]This must be fake
-[02:36.64]My lip starts to shake
-[02:39.62]How does she know who I am?
-[02:44.44]And why does she give a damn about me?
-[02:49.11]I've got two tickets to Iron Maiden, baby
-[02:54.86]Come with me Friday, don't say maybe
-[02:59.86]I'm just a teenage dirtbag baby like you
-[03:06.37]Oo-o-oo-oh
-[03:12.88]Oh yeah, dirtbag
-[03:18.39]No, she doesn't know what she's missing
-[03:22.87]Oh yeah, dirtbag
-[03:28.15]No, she doesn't know what she's missing
+[00:14.36]We passed upon the stairs
+[00:18.87]We spoke of was and when
+[00:22.78]Although I wasn't there
+[00:27.27]He said I was his friend
+[00:31.16]Which came as a surprise
+[00:35.39]I spoke into his eyes
+[00:38.76]I thought you died alone
+[00:42.76]A long long time ago
+[00:47.14].
+[00:49.26]Oh no, not me
+[00:53.25]We never lost control
+[00:57.38]You're face to face
+[01:01.65]With the man who sold the world
+[01:05.17](Guitar riff)
+[01:18.29]I laughed and shook his hand
+[01:23.18]And made my way back home
+[01:26.80]I searched for foreign land
+[01:31.59]For years and years I roamed
+[01:35.59]I gazed a gazely stare
+[01:39.71]We walked a million hills
+[01:43.08]I must have died alone
+[01:47.32]A long, long time ago
+[01:50.96].
+[01:53.57]Who knows? Not me
+[01:57.59]I never lost control
+[02:01.82]You're face to face
+[02:05.82]With the man who sold the world
+[02:09.53](Guitar riff)
+[02:16.20]Who knows? Not me
+[02:20.31]We never lost control
+[02:24.45]You're face to face
+[02:28.45]With the man who sold the world
 ";
 
 
