@@ -9,38 +9,24 @@
 <?php
 
 $lrc = "
-[00:14.36]We passed upon the stairs
-[00:18.87]We spoke of was and when
-[00:22.78]Although I wasn't there
-[00:27.27]He said I was his friend
-[00:31.16]Which came as a surprise
-[00:35.39]I spoke into his eyes
-[00:38.76]I thought you died alone
-[00:42.76]A long long time ago
-[00:47.14].
-[00:49.26]Oh no, not me
-[00:53.25]We never lost control
-[00:57.38]You're face to face
-[01:01.65]With the man who sold the world
-[01:05.17](Guitar riff)
-[01:18.29]I laughed and shook his hand
-[01:23.18]And made my way back home
-[01:26.80]I searched for foreign land
-[01:31.59]For years and years I roamed
-[01:35.59]I gazed a gazely stare
-[01:39.71]We walked a million hills
-[01:43.08]I must have died alone
-[01:47.32]A long, long time ago
-[01:50.96].
-[01:53.57]Who knows? Not me
-[01:57.59]I never lost control
-[02:01.82]You're face to face
-[02:05.82]With the man who sold the world
-[02:09.53](Guitar riff)
-[02:16.20]Who knows? Not me
-[02:20.31]We never lost control
-[02:24.45]You're face to face
-[02:28.45]With the man who sold the world
+[00:08.10]I summoned you, please come to me
+[00:11.87]Don't bury thoughts that you really want
+[00:15.63]I fill you up, drink from my cup
+[00:19.62]Within me lies what you really want
+[00:23.87]Come, lay me down
+[00:27.36]'Cause you know this
+[00:29.37]'Cause you know this now
+[00:31.63]In the middle of the night, in the middle of the night
+[00:35.36]Just call my name, I'm yours to tame
+[00:39.13]In the middle of the night, in the middle of the night
+[00:43.12]I'm wide awake, I crave your taste
+[00:46.87]All night long till morning comes
+[00:50.13]I'm getting what is mine, you gon' get yours, oh
+[00:54.12]In the middle of the night, in the middle of the night, oh
+[01:10.12]These burning flames, these crashing waves
+[01:13.86]Wash over me like a hurricane
+[01:17.87]I captivate, you're hypnotized
+[01:21.37]Feel powerful but it's me again
 ";
 
 
@@ -56,7 +42,7 @@ $index = 0;
 
 $numerlini = 0;
 
-$korekta = 0;
+$korekta = 0.01;
 
 $ilelini = substr_count($lrc,"\r\n") - 2;
 while ($numerlini <  $ilelini){
@@ -69,7 +55,7 @@ while ($numerlini <  $ilelini){
     $myjson .= ',start:';
 
     $minuty = substr($linia,4,1);
-    $czas = str_replace('[03:', '',str_replace('[02:', '',str_replace('[01:', '',str_replace('[00:', '', str_replace('[00:0', '', substr($linia, 0, 11))))));
+    $czas = str_replace('[03:', '',str_replace('[02:', '',str_replace('[01:', '',str_replace('[00:', '', str_replace('[00:0', '', substr($linia, 0, 11)))))) + $korekta;
     
     if (intval($minuty) > 0) {
         $czas = floatval(floatval($minuty) * 60 + floatval($czas));
@@ -93,7 +79,7 @@ while ($numerlini <  $ilelini){
         $newczas = floatval(floatval($minuty) * 60 + floatval($newczas));
     }
 
-    @$duration = floatval($newczas) - floatval($czas) + 0.5;
+    @$duration = floatval($newczas) - floatval($czas) + 0.5 + $korekta;
 
     $myjson .= floatval($duration);
 

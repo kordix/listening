@@ -1038,6 +1038,42 @@ let fragmenty =
     { index: 29, start: 140.31, tekst: 'We never lost control', duration: 4.64 },
     { index: 30, start: 144.45, tekst: 'You\'re face to face', duration: 4.5 }
     
+  ],
+  lakeoffire:[
+    { index: 0, start: 22.36, tekst: 'Where do bad folks go when they die?', duration: 3.5 },
+    { index: 1, start: 24.62, tekst: 'They don\'t go to heaven where the angels fly', duration: 3.73 },
+    { index: 2, start: 27.85, tekst: 'They go down to the lake of fire and fry', duration: 3.8 },
+    { index: 3, start: 31.15, tekst: 'Won\'t see \'em again till the fourth of July', duration: 10.22 },
+    { index: 4, start: 40.87, tekst: 'I knew a lady who came from Duluth', duration: 4.23 },
+    { index: 5, start: 44.6, tekst: 'She got bit by a dog with a rabid tooth', duration: 3.26 },
+    { index: 6, start: 47.36, tekst: 'She went to her grave just a little too soon', duration: 3.99 },
+    { index: 7, start: 50.85, tekst: 'Flew away howling on the yellow moon', duration: 5.81 },
+    { index: 8, start: 56.16, tekst: 'Where do bad folks go when they die?', duration: 3.19 },
+    { index: 9, start: 58.85, tekst: 'They don\'t go to heaven where the angels fly', duration: 4 },
+    { index: 10, start: 62.35, tekst: 'They go down to the lake of fire and fry', duration: 3.51 },
+    { index: 11, start: 65.36, tekst: 'Won\'t see \'em again till the fourth of July', duration: 10.74 },
+    { index: 12, start: 75.6, tekst: 'the people cry and the people moan', duration: 3.75 },
+    { index: 13, start: 78.85, tekst: 'Look for a dry place to call their home', duration: 3.83 },
+    { index: 14, start: 82.18, tekst: 'Try to find some place to rest their bones', duration: 3.47 }
+  ],
+  middleofthenight2:[
+    { index: 0, start: 8.11, tekst: 'I summoned you, please come to me', duration: 4.27 },
+    { index: 1, start: 11.88, tekst: 'Don\'t bury thoughts that you really want', duration: 4.26 },
+    { index: 2, start: 15.64, tekst: 'I fill you up, drink from my cup', duration: 4.49 },
+    { index: 3, start: 19.63, tekst: 'Within me lies what you really want', duration: 4.75 },
+    { index: 4, start: 23.88, tekst: 'Come, lay me down', duration: 3.99 },
+    { index: 5, start: 27.37, tekst: '\'Cause you know this', duration: 2.51 },
+    { index: 6, start: 29.38, tekst: '\'Cause you know this now', duration: 2.76 },
+    { index: 7, start: 31.64, tekst: 'In the middle of the night, in the middle of the night', duration: 4.23 },
+    { index: 8, start: 35.37, tekst: 'Just call my name, I\'m yours to tame', duration: 4.27 },
+    { index: 9, start: 39.14, tekst: 'In the middle of the night, in the middle of the night', duration: 4.49 },
+    { index: 10, start: 43.13, tekst: 'I\'m wide awake, I crave your taste', duration: 4.25 },
+    { index: 11, start: 46.88, tekst: 'All night long till morning comes', duration: 3.76 },
+    { index: 12, start: 50.14, tekst: 'I\'m getting what is mine, you gon\' get yours, oh', duration: 4.49 },
+    { index: 13, start: 54.13, tekst: 'In the middle of the night, in the middle of the night, oh', duration: 16.5 },
+    { index: 14, start: 70.13, tekst: 'These burning flames, these crashing waves', duration: 4.24 },
+    { index: 15, start: 73.87, tekst: 'Wash over me like a hurricane', duration: 4.51 },
+    { index: 16, start: 77.88, tekst: 'I captivate, you\'re hypnotized', duration: 4 }
   ]
   
 
