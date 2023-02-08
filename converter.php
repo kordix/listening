@@ -9,27 +9,39 @@
 <?php
 
 $lrc = '
-[00:13.67]I stand here waiting for you to bang the gong
-[00:20.18]To crash the critic saying, "Is it right or is it wrong?"
-[00:26.93]If only fame had an I.V., baby could I bear
-[00:34.17]Being away from you, I found the vein, put it in here
-[00:39.92]I live for the applause, applause, applause
-[00:43.43]I live for the applause-plause
-[00:45.18]Live for the applause-plause
-[00:46.92]Live for the way that you cheer and scream for me
-[00:50.43]The applause, applause, applause
-[00:54.68]Give me that thing that I love (I\'ll turn the lights out)
-[00:57.93]Put your hands up, make \'em touch, touch (make it real loud)
-[01:08.19](A-P-P-L-A-U-S-E) Make it real loud
-[01:12.17](A-P-P-L-A-U-S-E) Put your hands up, make \'em touch, touch
-[01:14.67](A-P-P-L-A-U-S-E) Make it real loud
-[01:18.67](A-P-P-L-A-U-S-E) Put your hands up, make \'em touch, touch
-[01:21.93]I\'ve overheard your theory "nostalgia\'s for geeks"
-[01:28.67]I guess sir, if you say so, some of us just like to read
-[01:35.93]One second I\'m a Koons, then suddenly the Koons is me
-[01:42.67]Pop culture was in art, now art\'s in pop culture in me
-[01:55.42]Live for the way that you cheer and scream for me
-[03:25.42]A-R-T-P-O-P
+[00:11.52]I wish I found some better sounds no one\'s ever heard
+[00:14.36]I wish I had a better voice that sang some better words
+[00:17.26]I wish I found some chords in an order that is new
+[00:20.01]I wish I didn\'t have to rhyme every time I sang
+[00:23.00]I was told when I get older all my fears would shrink
+[00:25.50]But now I\'m insecure and I care what people think
+[00:27.73]My name\'s \'Blurryface\' and I care what you think
+[00:40.57]Wish we could turn back time, to the good old days
+[00:46.35]When our momma sang us to sleep but now we\'re stressed out (oh)
+[00:51.88]Wish we could turn back time (oh), to the good old days (oh)
+[00:57.61]When our momma sang us to sleep but now we\'re stressed out
+[01:06.68]We\'re stressed out
+[01:13.70]Sometimes a certain smell will take me back to when I was young
+[01:16.52]How come I\'m never able to identify where it\'s coming from
+[01:19.26]I\'d make a candle out of it if I ever found it
+[01:21.51]Try to sell it, never sell out of it, I\'d probably only sell one
+[01:24.97]It\'d be to my brother, \'cause we have the same nose
+[01:27.37]Same clothes homegrown a stone\'s throw from a creek we used to roam
+[01:30.71]But it would remind us of when nothing really mattered
+[01:32.98]Out of student loans and tree-house homes we all would take the latter
+[02:11.36]We used to play pretend, give each other different names
+[02:13.92]We would build a rocket ship and then we\'d fly it far away
+[02:16.57]Used to dream of outer space but now they\'re laughing at our face
+[02:19.48]Saying, "Wake up, you need to make money."
+[02:21.93]Yeah
+[02:28.03]Used to dream of outer space but now they\'re laughing at our face
+[02:30.68]Saying, "Wake up, you need to make money."
+[02:33.23]Yeah
+[02:56.52]Used to play pretend, used to play pretend, bunny
+[02:59.24]We used to play pretend, wake up, you need the money
+[03:13.26]Used to dream of outer space but now they\'re laughing at our face
+[03:15.96]Saying, "Wake up, you need to make money."
+[03:18.45]Yeah
 ';
 
 
