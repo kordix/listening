@@ -1074,6 +1074,28 @@ let fragmenty =
     { index: 14, start: 70.13, tekst: 'These burning flames, these crashing waves', duration: 4.24 },
     { index: 15, start: 73.87, tekst: 'Wash over me like a hurricane', duration: 4.51 },
     { index: 16, start: 77.88, tekst: 'I captivate, you\'re hypnotized', duration: 4 }
+  ],
+  applause:[
+    { index: 0, start: 13.68, tekst: 'I stand here waiting for you to bang the gong', duration: 7.01 },
+    { index: 1, start: 20.19, tekst: 'To crash the critic saying, "Is it right or is it wrong?"', duration: 7.25 },
+    { index: 2, start: 26.94, tekst: 'If only fame had an I.V., baby could I bear', duration: 7.74 },
+    { index: 3, start: 34.18, tekst: 'Being away from you, I found the vein, put it in here', duration: 6.25 },
+    { index: 4, start: 39.93, tekst: 'I live for the applause, applause, applause', duration: 4.01 },
+    { index: 5, start: 43.44, tekst: 'I live for the applause-plause', duration: 2.25 },
+    { index: 6, start: 45.19, tekst: 'Live for the applause-plause', duration: 2.24 },
+    { index: 7, start: 46.93, tekst: 'Live for the way that you cheer and scream for me', duration: 4.01 },
+    { index: 8, start: 50.44, tekst: 'The applause, applause, applause', duration: 4.75 },
+    { index: 9, start: 54.69, tekst: 'Give me that thing that I love (I\'ll turn the lights out)', duration: 3.75 },
+    { index: 10, start: 57.94, tekst: 'Put your hands up, make \'em touch, touch (make it real loud)', duration: 10.76 },
+    { index: 11, start: 68.2, tekst: '(A-P-P-L-A-U-S-E) Make it real loud', duration: 4.48 },
+    { index: 12, start: 72.18, tekst: '(A-P-P-L-A-U-S-E) Put your hands up, make \'em touch, touch', duration: 3 },
+    { index: 13, start: 74.68, tekst: '(A-P-P-L-A-U-S-E) Make it real loud', duration: 4.5 },
+    { index: 14, start: 78.68, tekst: '(A-P-P-L-A-U-S-E) Put your hands up, make \'em touch, touch', duration: 3.76 },
+    { index: 15, start: 81.94, tekst: 'I\'ve overheard your theory "nostalgia\'s for geeks"', duration: 7.24 },
+    { index: 16, start: 88.68, tekst: 'I guess sir, if you say so, some of us just like to read', duration: 7.76 },
+    { index: 17, start: 95.94, tekst: 'One second I\'m a Koons, then suddenly the Koons is me', duration: 7.24 },
+    { index: 18, start: 102.68, tekst: 'Pop culture was in art, now art\'s in pop culture in me', duration: 13.25 },
+    { index: 19, start: 115.43, tekst: 'Live for the way that you cheer and scream for me', duration: 90.5 }
   ]
   
 

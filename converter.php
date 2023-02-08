@@ -8,26 +8,29 @@
 
 <?php
 
-$lrc = "
-[00:08.10]I summoned you, please come to me
-[00:11.87]Don't bury thoughts that you really want
-[00:15.63]I fill you up, drink from my cup
-[00:19.62]Within me lies what you really want
-[00:23.87]Come, lay me down
-[00:27.36]'Cause you know this
-[00:29.37]'Cause you know this now
-[00:31.63]In the middle of the night, in the middle of the night
-[00:35.36]Just call my name, I'm yours to tame
-[00:39.13]In the middle of the night, in the middle of the night
-[00:43.12]I'm wide awake, I crave your taste
-[00:46.87]All night long till morning comes
-[00:50.13]I'm getting what is mine, you gon' get yours, oh
-[00:54.12]In the middle of the night, in the middle of the night, oh
-[01:10.12]These burning flames, these crashing waves
-[01:13.86]Wash over me like a hurricane
-[01:17.87]I captivate, you're hypnotized
-[01:21.37]Feel powerful but it's me again
-";
+$lrc = '
+[00:13.67]I stand here waiting for you to bang the gong
+[00:20.18]To crash the critic saying, "Is it right or is it wrong?"
+[00:26.93]If only fame had an I.V., baby could I bear
+[00:34.17]Being away from you, I found the vein, put it in here
+[00:39.92]I live for the applause, applause, applause
+[00:43.43]I live for the applause-plause
+[00:45.18]Live for the applause-plause
+[00:46.92]Live for the way that you cheer and scream for me
+[00:50.43]The applause, applause, applause
+[00:54.68]Give me that thing that I love (I\'ll turn the lights out)
+[00:57.93]Put your hands up, make \'em touch, touch (make it real loud)
+[01:08.19](A-P-P-L-A-U-S-E) Make it real loud
+[01:12.17](A-P-P-L-A-U-S-E) Put your hands up, make \'em touch, touch
+[01:14.67](A-P-P-L-A-U-S-E) Make it real loud
+[01:18.67](A-P-P-L-A-U-S-E) Put your hands up, make \'em touch, touch
+[01:21.93]I\'ve overheard your theory "nostalgia\'s for geeks"
+[01:28.67]I guess sir, if you say so, some of us just like to read
+[01:35.93]One second I\'m a Koons, then suddenly the Koons is me
+[01:42.67]Pop culture was in art, now art\'s in pop culture in me
+[01:55.42]Live for the way that you cheer and scream for me
+[03:25.42]A-R-T-P-O-P
+';
 
 
 
